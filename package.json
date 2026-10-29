@@ -1,0 +1,47 @@
+{
+  "name": "super_seo",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Open-source SEO toolkit: crawler, site audit, speed, rank tracking, AI visibility and reports. CLI only.",
+  "license": "MIT",
+  "keywords": [
+    "seo",
+    "crawler",
+    "site-audit",
+    "core-web-vitals",
+    "pagespeed",
+    "rank-tracking",
+    "ai-search",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mridungeorge/super-seo.git"
+  },
+  "homepage": "https://github.com/mridungeorge/super-seo#readme",
+  "bugs": {
+    "url": "https://github.com/mridungeorge/super-seo/issues"
+  },
+  "bin": {
+    "super_seo": "./bin/sm.js",
+    "sm": "./bin/sm.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "scripts",
+    "examples",
+    "README.md",
+    "LICENSE",
+    ".env.example"
+  ],
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "test": "node --test \"test/*.test.js\"",
+    "test:live": "node scripts/test-live.mjs",
+    "check": "node scripts/check.mjs",
+    "demo": "node scripts/demo.mjs"
+  }
+}

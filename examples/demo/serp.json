@@ -1,0 +1,726 @@
+{
+  "domain": "demo-outdoor.example",
+  "engine": "demo",
+  "results": [
+    {
+      "keyword": "camping tents",
+      "engine": "demo",
+      "position": 1,
+      "found": true,
+      "results": [
+        {
+          "domain": "demo-outdoor.example",
+          "title": "camping tents result 1",
+          "url": "https://example/0"
+        },
+        {
+          "domain": "peak-supply.example",
+          "title": "camping tents result 2",
+          "url": "https://example/1"
+        },
+        {
+          "domain": "bigretailer.example",
+          "title": "camping tents result 3",
+          "url": "https://example/2"
+        },
+        {
+          "domain": "outdoor-reviews.example",
+          "title": "camping tents result 4",
+          "url": "https://example/3"
+        },
+        {
+          "domain": "gearlab.example",
+          "title": "camping tents result 5",
+          "url": "https://example/4"
+        },
+        {
+          "domain": "trail-gear.example",
+          "title": "camping tents result 6",
+          "url": "https://example/5"
+        },
+        {
+          "domain": "peak-supply.example",
+          "title": "camping tents result 7",
+          "url": "https://example/6"
+        },
+        {
+          "domain": "bigretailer.example",
+          "title": "camping tents result 8",
+          "url": "https://example/7"
+        },
+        {
+          "domain": "outdoor-reviews.example",
+          "title": "camping tents result 9",
+          "url": "https://example/8"
+        },
+        {
+          "domain": "gearlab.example",
+          "title": "camping tents result 10",
+          "url": "https://example/9"
+        }
+      ],
+      "capturedAt": "2026-01-15T09:00:00Z",
+      "error": null
+    },
+    {
+      "keyword": "family camping tent",
+      "engine": "demo",
+      "position": 4,
+      "found": true,
+      "results": [
+        {
+          "domain": "peak-supply.example",
+          "title": "family camping tent result 1",
+          "url": "https://example/0"
+        },
+        {
+          "domain": "bigretailer.example",
+          "title": "family camping tent result 2",
+          "url": "https://example/1"
+        },
+        {
+          "domain": "outdoor-reviews.example",
+          "title": "family camping tent result 3",
+          "url": "https://example/2"
+        },
+        {
+          "domain": "demo-outdoor.example",
+          "title": "family camping tent result 4",
+          "url": "https://example/3"
+        },
+        {
+          "domain": "trail-gear.example",
+          "title": "family camping tent result 5",
+          "url": "https://example/4"
+        },
+        {
+          "domain": "peak-supply.example",
+          "title": "family camping tent result 6",
+          "url": "https://example/5"
+        },
+        {
+          "domain": "bigretailer.example",
+          "title": "family camping tent result 7",
+          "url": "https://example/6"
+        },
+        {
+          "domain": "outdoor-reviews.example",
+          "title": "family camping tent result 8",
+          "url": "https://example/7"
+        },
+        {
+          "domain": "gearlab.example",
+          "title": "family camping tent result 9",
+          "url": "https://example/8"
+        },
+        {
+          "domain": "trail-gear.example",
+          "title": "family camping tent result 10",
+          "url": "https://example/9"
+        }
+      ],
+      "capturedAt": "2026-01-15T09:00:00Z",
+      "error": null
+    },
+    {
+      "keyword": "lightweight hiking boots",
+      "engine": "demo",
+      "position": null,
+      "found": false,
+      "results": [
+        {
+          "domain": "bigretailer.example",
+          "title": "lightweight hiking boots result 1",
+          "url": "https://example/0"
+        },
+        {
+          "domain": "outdoor-reviews.example",
+          "title": "lightweight hiking boots result 2",
+          "url": "https://example/1"
+        },
+        {
+          "domain": "gearlab.example",
+          "title": "lightweight hiking boots result 3",
+          "url": "https://example/2"
+        },
+        {
+          "domain": "trail-gear.example",
+          "title": "lightweight hiking boots result 4",
+          "url": "https://example/3"
+        },
+        {
+          "domain": "peak-supply.example",
+          "title": "lightweight hiking boots result 5",
+          "url": "https://example/4"
+        },
+        {
+          "domain": "bigretailer.example",
+          "title": "lightweight hiking boots result 6",
+          "url": "https://example/5"
+        },
+        {
+          "domain": "outdoor-reviews.example",
+          "title": "lightweight hiking boots result 7",
+          "url": "https://example/6"
+        },
+        {
+          "domain": "gearlab.example",
+          "title": "lightweight hiking boots result 8",
+          "url": "https://example/7"
+        },
+        {
+          "domain": "trail-gear.example",
+          "title": "lightweight hiking boots result 9",
+          "url": "https://example/8"
+        },
+        {
+          "domain": "peak-supply.example",
+          "title": "lightweight hiking boots result 10",
+          "url": "https://example/9"
+        }
+      ],
+      "capturedAt": "2026-01-15T09:00:00Z",
+      "error": null
+    },
+    {
+      "keyword": "best rain jacket for hiking",
+      "engine": "demo",
+      "position": 7,
+      "found": true,
+      "results": [
+        {
+          "domain": "outdoor-reviews.example",
+          "title": "best rain jacket for hiking result 1",
+          "url": "https://example/0"
+        },
+        {
+          "domain": "gearlab.example",
+          "title": "best rain jacket for hiking result 2",
+          "url": "https://example/1"
+        },
+        {
+          "domain": "trail-gear.example",
+          "title": "best rain jacket for hiking result 3",
+          "url": "https://example/2"
+        },
+        {
+          "domain": "peak-supply.example",
+          "title": "best rain jacket for hiking result 4",
+          "url": "https://example/3"
+        },
+        {
+          "domain": "bigretailer.example",
+          "title": "best rain jacket for hiking result 5",
+          "url": "https://example/4"
+        },
+        {
+          "domain": "outdoor-reviews.example",
+          "title": "best rain jacket for hiking result 6",
+          "url": "https://example/5"
+        },
+        {
+          "domain": "demo-outdoor.example",
+          "title": "best rain jacket for hiking result 7",
+          "url": "https://example/6"
+        },
+        {
+          "domain": "trail-gear.example",
+          "title": "best rain jacket for hiking result 8",
+          "url": "https://example/7"
+        },
+        {
+          "domain": "peak-supply.example",
+          "title": "best rain jacket for hiking result 9",
+          "url": "https://example/8"
+        },
+        {
+          "domain": "bigretailer.example",
+          "title": "best rain jacket for hiking result 10",
+          "url": "https://example/9"
+        }
+      ],
+      "capturedAt": "2026-01-15T09:00:00Z",
+      "error": null
+    },
+    {
+      "keyword": "how to choose a sleeping bag",
+      "engine": "demo",
+      "position": null,
+      "found": false,
+      "results": [
+        {
+          "domain": "gearlab.example",
+          "title": "how to choose a sleeping bag result 1",
+          "url": "https://example/0"
+        },
+        {
+          "domain": "trail-gear.example",
+          "title": "how to choose a sleeping bag result 2",
+          "url": "https://example/1"
+        },
+        {
+          "domain": "peak-supply.example",
+          "title": "how to choose a sleeping bag result 3",
+          "url": "https://example/2"
+        },
+        {
+          "domain": "bigretailer.example",
+          "title": "how to choose a sleeping bag result 4",
+          "url": "https://example/3"
+        },
+        {
+          "domain": "outdoor-reviews.example",
+          "title": "how to choose a sleeping bag result 5",
+          "url": "https://example/4"
+        },
+        {
+          "domain": "gearlab.example",
+          "title": "how to choose a sleeping bag result 6",
+          "url": "https://example/5"
+        },
+        {
+          "domain": "trail-gear.example",
+          "title": "how to choose a sleeping bag result 7",
+          "url": "https://example/6"
+        },
+        {
+          "domain": "peak-supply.example",
+          "title": "how to choose a sleeping bag result 8",
+          "url": "https://example/7"
+        },
+        {
+          "domain": "bigretailer.example",
+          "title": "how to choose a sleeping bag result 9",
+          "url": "https://example/8"
+        },
+        {
+          "domain": "outdoor-reviews.example",
+          "title": "how to choose a sleeping bag result 10",
+          "url": "https://example/9"
+        }
+      ],
+      "capturedAt": "2026-01-15T09:00:00Z",
+      "error": null
+    },
+    {
+      "keyword": "buy camping stove",
+      "engine": "demo",
+      "position": 2,
+      "found": true,
+      "results": [
+        {
+          "domain": "trail-gear.example",
+          "title": "buy camping stove result 1",
+          "url": "https://example/0"
+        },
+        {
+          "domain": "demo-outdoor.example",
+          "title": "buy camping stove result 2",
+          "url": "https://example/1"
+        },
+        {
+          "domain": "bigretailer.example",
+          "title": "buy camping stove result 3",
+          "url": "https://example/2"
+        },
+        {
+          "domain": "outdoor-reviews.example",
+          "title": "buy camping stove result 4",
+          "url": "https://example/3"
+        },
+        {
+          "domain": "gearlab.example",
+          "title": "buy camping stove result 5",
+          "url": "https://example/4"
+        },
+        {
+          "domain": "trail-gear.example",
+          "title": "buy camping stove result 6",
+          "url": "https://example/5"
+        },
+        {
+          "domain": "peak-supply.example",
+          "title": "buy camping stove result 7",
+          "url": "https://example/6"
+        },
+        {
+          "domain": "bigretailer.example",
+          "title": "buy camping stove result 8",
+          "url": "https://example/7"
+        },
+        {
+          "domain": "outdoor-reviews.example",
+          "title": "buy camping stove result 9",
+          "url": "https://example/8"
+        },
+        {
+          "domain": "gearlab.example",
+          "title": "buy camping stove result 10",
+          "url": "https://example/9"
+        }
+      ],
+      "capturedAt": "2026-01-15T09:00:00Z",
+      "error": null
+    },
+    {
+      "keyword": "trekking poles",
+      "engine": "demo",
+      "position": 9,
+      "found": true,
+      "results": [
+        {
+          "domain": "peak-supply.example",
+          "title": "trekking poles result 1",
+          "url": "https://example/0"
+        },
+        {
+          "domain": "bigretailer.example",
+          "title": "trekking poles result 2",
+          "url": "https://example/1"
+        },
+        {
+          "domain": "outdoor-reviews.example",
+          "title": "trekking poles result 3",
+          "url": "https://example/2"
+        },
+        {
+          "domain": "gearlab.example",
+          "title": "trekking poles result 4",
+          "url": "https://example/3"
+        },
+        {
+          "domain": "trail-gear.example",
+          "title": "trekking poles result 5",
+          "url": "https://example/4"
+        },
+        {
+          "domain": "peak-supply.example",
+          "title": "trekking poles result 6",
+          "url": "https://example/5"
+        },
+        {
+          "domain": "bigretailer.example",
+          "title": "trekking poles result 7",
+          "url": "https://example/6"
+        },
+        {
+          "domain": "outdoor-reviews.example",
+          "title": "trekking poles result 8",
+          "url": "https://example/7"
+        },
+        {
+          "domain": "demo-outdoor.example",
+          "title": "trekking poles result 9",
+          "url": "https://example/8"
+        },
+        {
+          "domain": "trail-gear.example",
+          "title": "trekking poles result 10",
+          "url": "https://example/9"
+        }
+      ],
+      "capturedAt": "2026-01-15T09:00:00Z",
+      "error": null
+    },
+    {
+      "keyword": "waterproof daypack",
+      "engine": "demo",
+      "position": null,
+      "found": false,
+      "results": [
+        {
+          "domain": "bigretailer.example",
+          "title": "waterproof daypack result 1",
+          "url": "https://example/0"
+        },
+        {
+          "domain": "outdoor-reviews.example",
+          "title": "waterproof daypack result 2",
+          "url": "https://example/1"
+        },
+        {
+          "domain": "gearlab.example",
+          "title": "waterproof daypack result 3",
+          "url": "https://example/2"
+        },
+        {
+          "domain": "trail-gear.example",
+          "title": "waterproof daypack result 4",
+          "url": "https://example/3"
+        },
+        {
+          "domain": "peak-supply.example",
+          "title": "waterproof daypack result 5",
+          "url": "https://example/4"
+        },
+        {
+          "domain": "bigretailer.example",
+          "title": "waterproof daypack result 6",
+          "url": "https://example/5"
+        },
+        {
+          "domain": "outdoor-reviews.example",
+          "title": "waterproof daypack result 7",
+          "url": "https://example/6"
+        },
+        {
+          "domain": "gearlab.example",
+          "title": "waterproof daypack result 8",
+          "url": "https://example/7"
+        },
+        {
+          "domain": "trail-gear.example",
+          "title": "waterproof daypack result 9",
+          "url": "https://example/8"
+        },
+        {
+          "domain": "peak-supply.example",
+          "title": "waterproof daypack result 10",
+          "url": "https://example/9"
+        }
+      ],
+      "capturedAt": "2026-01-15T09:00:00Z",
+      "error": null
+    },
+    {
+      "keyword": "hiking boots women",
+      "engine": "demo",
+      "position": 5,
+      "found": true,
+      "results": [
+        {
+          "domain": "outdoor-reviews.example",
+          "title": "hiking boots women result 1",
+          "url": "https://example/0"
+        },
+        {
+          "domain": "gearlab.example",
+          "title": "hiking boots women result 2",
+          "url": "https://example/1"
+        },
+        {
+          "domain": "trail-gear.example",
+          "title": "hiking boots women result 3",
+          "url": "https://example/2"
+        },
+        {
+          "domain": "peak-supply.example",
+          "title": "hiking boots women result 4",
+          "url": "https://example/3"
+        },
+        {
+          "domain": "demo-outdoor.example",
+          "title": "hiking boots women result 5",
+          "url": "https://example/4"
+        },
+        {
+          "domain": "outdoor-reviews.example",
+          "title": "hiking boots women result 6",
+          "url": "https://example/5"
+        },
+        {
+          "domain": "gearlab.example",
+          "title": "hiking boots women result 7",
+          "url": "https://example/6"
+        },
+        {
+          "domain": "trail-gear.example",
+          "title": "hiking boots women result 8",
+          "url": "https://example/7"
+        },
+        {
+          "domain": "peak-supply.example",
+          "title": "hiking boots women result 9",
+          "url": "https://example/8"
+        },
+        {
+          "domain": "bigretailer.example",
+          "title": "hiking boots women result 10",
+          "url": "https://example/9"
+        }
+      ],
+      "capturedAt": "2026-01-15T09:00:00Z",
+      "error": null
+    },
+    {
+      "keyword": "compact water filter",
+      "engine": "demo",
+      "position": null,
+      "found": false,
+      "results": [
+        {
+          "domain": "gearlab.example",
+          "title": "compact water filter result 1",
+          "url": "https://example/0"
+        },
+        {
+          "domain": "trail-gear.example",
+          "title": "compact water filter result 2",
+          "url": "https://example/1"
+        },
+        {
+          "domain": "peak-supply.example",
+          "title": "compact water filter result 3",
+          "url": "https://example/2"
+        },
+        {
+          "domain": "bigretailer.example",
+          "title": "compact water filter result 4",
+          "url": "https://example/3"
+        },
+        {
+          "domain": "outdoor-reviews.example",
+          "title": "compact water filter result 5",
+          "url": "https://example/4"
+        },
+        {
+          "domain": "gearlab.example",
+          "title": "compact water filter result 6",
+          "url": "https://example/5"
+        },
+        {
+          "domain": "trail-gear.example",
+          "title": "compact water filter result 7",
+          "url": "https://example/6"
+        },
+        {
+          "domain": "peak-supply.example",
+          "title": "compact water filter result 8",
+          "url": "https://example/7"
+        },
+        {
+          "domain": "bigretailer.example",
+          "title": "compact water filter result 9",
+          "url": "https://example/8"
+        },
+        {
+          "domain": "outdoor-reviews.example",
+          "title": "compact water filter result 10",
+          "url": "https://example/9"
+        }
+      ],
+      "capturedAt": "2026-01-15T09:00:00Z",
+      "error": null
+    },
+    {
+      "keyword": "winter camping checklist",
+      "engine": "demo",
+      "position": 3,
+      "found": true,
+      "results": [
+        {
+          "domain": "trail-gear.example",
+          "title": "winter camping checklist result 1",
+          "url": "https://example/0"
+        },
+        {
+          "domain": "peak-supply.example",
+          "title": "winter camping checklist result 2",
+          "url": "https://example/1"
+        },
+        {
+          "domain": "demo-outdoor.example",
+          "title": "winter camping checklist result 3",
+          "url": "https://example/2"
+        },
+        {
+          "domain": "outdoor-reviews.example",
+          "title": "winter camping checklist result 4",
+          "url": "https://example/3"
+        },
+        {
+          "domain": "gearlab.example",
+          "title": "winter camping checklist result 5",
+          "url": "https://example/4"
+        },
+        {
+          "domain": "trail-gear.example",
+          "title": "winter camping checklist result 6",
+          "url": "https://example/5"
+        },
+        {
+          "domain": "peak-supply.example",
+          "title": "winter camping checklist result 7",
+          "url": "https://example/6"
+        },
+        {
+          "domain": "bigretailer.example",
+          "title": "winter camping checklist result 8",
+          "url": "https://example/7"
+        },
+        {
+          "domain": "outdoor-reviews.example",
+          "title": "winter camping checklist result 9",
+          "url": "https://example/8"
+        },
+        {
+          "domain": "gearlab.example",
+          "title": "winter camping checklist result 10",
+          "url": "https://example/9"
+        }
+      ],
+      "capturedAt": "2026-01-15T09:00:00Z",
+      "error": null
+    },
+    {
+      "keyword": "camping lantern rechargeable",
+      "engine": "demo",
+      "position": null,
+      "found": false,
+      "results": [
+        {
+          "domain": "peak-supply.example",
+          "title": "camping lantern rechargeable result 1",
+          "url": "https://example/0"
+        },
+        {
+          "domain": "bigretailer.example",
+          "title": "camping lantern rechargeable result 2",
+          "url": "https://example/1"
+        },
+        {
+          "domain": "outdoor-reviews.example",
+          "title": "camping lantern rechargeable result 3",
+          "url": "https://example/2"
+        },
+        {
+          "domain": "gearlab.example",
+          "title": "camping lantern rechargeable result 4",
+          "url": "https://example/3"
+        },
+        {
+          "domain": "trail-gear.example",
+          "title": "camping lantern rechargeable result 5",
+          "url": "https://example/4"
+        },
+        {
+          "domain": "peak-supply.example",
+          "title": "camping lantern rechargeable result 6",
+          "url": "https://example/5"
+        },
+        {
+          "domain": "bigretailer.example",
+          "title": "camping lantern rechargeable result 7",
+          "url": "https://example/6"
+        },
+        {
+          "domain": "outdoor-reviews.example",
+          "title": "camping lantern rechargeable result 8",
+          "url": "https://example/7"
+        },
+        {
+          "domain": "gearlab.example",
+          "title": "camping lantern rechargeable result 9",
+          "url": "https://example/8"
+        },
+        {
+          "domain": "trail-gear.example",
+          "title": "camping lantern rechargeable result 10",
+          "url": "https://example/9"
+        }
+      ],
+      "capturedAt": "2026-01-15T09:00:00Z",
+      "error": null
+    }
+  ]
+}

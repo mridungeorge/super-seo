@@ -1,0 +1,22 @@
+# secrets: never commit these
+.env
+.env.*
+!.env.example
+config.json
+
+# local state and results
+node_modules/
+.venv*/
+var/
+scans/
+scan-*/
+full-*/
+*.db
+*.db-wal
+*.db-shm
+
+# editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

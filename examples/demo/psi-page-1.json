@@ -1,0 +1,88 @@
+{
+  "url": "https://demo-outdoor.example/camping/",
+  "strategy": "mobile",
+  "fetchedAt": "2026-01-15T09:00:00Z",
+  "scores": {
+    "performance": 48,
+    "accessibility": 90,
+    "best-practices": 92,
+    "seo": 100
+  },
+  "lab": {
+    "lcp": {
+      "value": 4600,
+      "display": "4.6 s"
+    },
+    "cls": {
+      "value": 0.04,
+      "display": "0.04"
+    },
+    "tbt": {
+      "value": 420,
+      "display": "420 ms"
+    },
+    "fcp": {
+      "value": 1900,
+      "display": "1.9 s"
+    },
+    "si": {
+      "value": 4800,
+      "display": "4.8 s"
+    }
+  },
+  "field": {
+    "overall": "AVERAGE",
+    "lcp": {
+      "p75": 3680,
+      "unit": "ms",
+      "rating": "SLOW"
+    },
+    "inp": {
+      "p75": 210,
+      "unit": "ms",
+      "rating": "AVERAGE"
+    },
+    "cls": {
+      "p75": 0.07,
+      "unit": "score",
+      "rating": "FAST"
+    },
+    "fcp": {
+      "p75": 1600,
+      "unit": "ms",
+      "rating": "FAST"
+    },
+    "ttfb": {
+      "p75": 450,
+      "unit": "ms",
+      "rating": "FAST"
+    }
+  },
+  "originField": null,
+  "topIssues": [
+    {
+      "id": "unused-javascript",
+      "title": "Reduce unused JavaScript",
+      "score": 0,
+      "savings": 1850
+    },
+    {
+      "id": "uses-optimized-images",
+      "title": "Serve images in next-gen formats",
+      "score": 0.3,
+      "savings": 900
+    },
+    {
+      "id": "render-blocking-resources",
+      "title": "Eliminate render-blocking resources",
+      "score": 0.4,
+      "savings": 640
+    },
+    {
+      "id": "unused-css-rules",
+      "title": "Reduce unused CSS",
+      "score": 0.5,
+      "savings": 310
+    }
+  ]
+}

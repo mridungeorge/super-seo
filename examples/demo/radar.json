@@ -1,0 +1,10 @@
+{
+  "domain": "demo-outdoor.example",
+  "rank": null,
+  "bucket": 100000,
+  "categories": [
+    "Shopping"
+  ],
+  "date": "2026-01-15",
+  "series": []
+}

@@ -1,0 +1,90 @@
+{
+  "brand": "Demo Outdoor Supply",
+  "competitors": [],
+  "engine": "demo",
+  "measuredAt": "2026-01-15T09:00:00Z",
+  "prompts": 7,
+  "answered": 7,
+  "mentionRate": 0.5714285714285714,
+  "shareOfVoice": 1,
+  "mentions": {},
+  "avgPosition": 2,
+  "sentiments": {
+    "positive": 3,
+    "negative": 0,
+    "neutral": 4
+  },
+  "coMentions": {},
+  "results": [
+    {
+      "id": 1,
+      "prompt": "What are good alternatives to Demo Outdoor Supply?",
+      "error": null,
+      "mentioned": true,
+      "rank": 2,
+      "coMentions": [],
+      "sentiment": "positive",
+      "excerpt": "Demo Outdoor Supply is an Australian retailer of camping and hiking gear…"
+    },
+    {
+      "id": 2,
+      "prompt": "Is Demo Outdoor Supply a good choice for hiking boots?",
+      "error": null,
+      "mentioned": true,
+      "rank": 1,
+      "coMentions": [],
+      "sentiment": "positive",
+      "excerpt": "Demo Outdoor Supply is an Australian retailer of camping and hiking gear…"
+    },
+    {
+      "id": 3,
+      "prompt": "Where can I buy a lightweight tent in Australia?",
+      "error": null,
+      "mentioned": false,
+      "rank": null,
+      "coMentions": [],
+      "sentiment": "neutral",
+      "excerpt": "Several retailers sell lightweight tents, including larger chains…"
+    },
+    {
+      "id": 4,
+      "prompt": "Best online stores for camping gear?",
+      "error": null,
+      "mentioned": true,
+      "rank": 4,
+      "coMentions": [],
+      "sentiment": "neutral",
+      "excerpt": "Demo Outdoor Supply is an Australian retailer of camping and hiking gear…"
+    },
+    {
+      "id": 5,
+      "prompt": "Demo Outdoor Supply reviews",
+      "error": null,
+      "mentioned": false,
+      "rank": null,
+      "coMentions": [],
+      "sentiment": "neutral",
+      "excerpt": "Several retailers sell lightweight tents, including larger chains…"
+    },
+    {
+      "id": 6,
+      "prompt": "Who sells Alpine-brand rain jackets?",
+      "error": null,
+      "mentioned": false,
+      "rank": null,
+      "coMentions": [],
+      "sentiment": "neutral",
+      "excerpt": "Several retailers sell lightweight tents, including larger chains…"
+    },
+    {
+      "id": 7,
+      "prompt": "Is Demo Outdoor Supply trustworthy?",
+      "error": null,
+      "mentioned": true,
+      "rank": 1,
+      "coMentions": [],
+      "sentiment": "positive",
+      "excerpt": "Demo Outdoor Supply is an Australian retailer of camping and hiking gear…"
+    }
+  ]
+}

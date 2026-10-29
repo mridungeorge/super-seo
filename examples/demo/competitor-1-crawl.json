@@ -1,0 +1,8270 @@
+{
+  "startUrl": "https://trail-gear.example/",
+  "crawledAt": "2026-10-29T05:24:53.673Z",
+  "options": {
+    "maxPages": 200,
+    "concurrency": 4,
+    "checkExternal": false,
+    "engine": "builtin"
+  },
+  "origin": "https://trail-gear.example",
+  "host": "trail-gear.example",
+  "blocked": false,
+  "robots": {
+    "status": 200,
+    "disallow": [
+      "/cart/",
+      "/account/"
+    ],
+    "sitemaps": [
+      "https://trail-gear.example/sitemap.xml"
+    ]
+  },
+  "sitemap": {
+    "urls": 63,
+    "files": [
+      {
+        "url": "https://trail-gear.example/sitemap.xml",
+        "status": 200,
+        "urls": 63,
+        "index": false
+      }
+    ],
+    "sampled": 0
+  },
+  "complete": true,
+  "summary": {
+    "pages": 63,
+    "indexable": 62,
+    "nonIndexable": 1,
+    "healthy": 35,
+    "healthScore": 93,
+    "healthyShare": 56,
+    "errors": 1,
+    "warnings": 47,
+    "notices": 165,
+    "pagesWithErrors": 1,
+    "pagesWithWarnings": 28,
+    "byStatus": {
+      "200": 63
+    },
+    "byDepth": {
+      "0": 1,
+      "1": 8,
+      "2": 49
+    },
+    "unreached": 5,
+    "avgWords": 324,
+    "avgTtfb": 31,
+    "avgBytes": 11434
+  },
+  "siteChecks": [
+    {
+      "id": "https",
+      "title": "Site served over HTTPS",
+      "pass": true,
+      "detail": "local host"
+    },
+    {
+      "id": "robots",
+      "title": "robots.txt present",
+      "pass": true,
+      "detail": "2 disallow rule(s)"
+    },
+    {
+      "id": "sitemap",
+      "title": "XML sitemap found",
+      "pass": true,
+      "detail": "63 URLs in 1 file(s)"
+    },
+    {
+      "id": "sitemap-robots",
+      "title": "Sitemap declared in robots.txt",
+      "pass": true,
+      "detail": "https://trail-gear.example/sitemap.xml"
+    },
+    {
+      "id": "hsts",
+      "title": "HSTS header sent",
+      "pass": true,
+      "detail": "local host"
+    },
+    {
+      "id": "compression",
+      "title": "Responses compressed",
+      "pass": false,
+      "detail": "identity"
+    },
+    {
+      "id": "soft404",
+      "title": "Unknown URLs return a real 404",
+      "pass": true,
+      "detail": "HTTP 404"
+    },
+    {
+      "id": "sitemap-clean",
+      "title": "Sitemap URLs all return 200",
+      "pass": true,
+      "detail": "sampled URLs are fine"
+    }
+  ],
+  "issues": [
+    {
+      "id": "noindex-in-sitemap",
+      "severity": "error",
+      "category": "indexability",
+      "title": "Page is in the sitemap but set to noindex",
+      "why": "Conflicting signals waste crawl budget.",
+      "fix": "Remove it from the sitemap or remove the noindex.",
+      "count": 1,
+      "urls": [
+        "https://trail-gear.example/thank-you/"
+      ],
+      "details": {}
+    },
+    {
+      "id": "title-short",
+      "severity": "warning",
+      "category": "content",
+      "title": "Title shorter than 30 characters",
+      "why": "Short titles under-use the main ranking signal.",
+      "fix": "Expand with the page topic and brand.",
+      "count": 24,
+      "urls": [
+        "https://trail-gear.example/camping/",
+        "https://trail-gear.example/hiking/",
+        "https://trail-gear.example/footwear/",
+        "https://trail-gear.example/sale/",
+        "https://trail-gear.example/blog/",
+        "https://trail-gear.example/about/",
+        "https://trail-gear.example/store-locator/",
+        "https://trail-gear.example/p/alpine-tent/",
+        "https://trail-gear.example/p/alpine-stove/",
+        "https://trail-gear.example/p/ridge-tent/",
+        "https://trail-gear.example/p/ridge-stove/",
+        "https://trail-gear.example/p/summit-stove/",
+        "https://trail-gear.example/p/canyon-tent/",
+        "https://trail-gear.example/p/glacier-tent/",
+        "https://trail-gear.example/p/basin-stove/",
+        "https://trail-gear.example/p/pioneer-tent/",
+        "https://trail-gear.example/p/pioneer-stove/",
+        "https://trail-gear.example/p/ridge-daypack/",
+        "https://trail-gear.example/p/trail-daypack/",
+        "https://trail-gear.example/thank-you/",
+        "https://trail-gear.example/catalogue/",
+        "https://trail-gear.example/orphan-guide/",
+        "https://trail-gear.example/orphan-offer/",
+        "https://trail-gear.example/slow/"
+      ],
+      "details": {
+        "https://trail-gear.example/camping/": "28 chars",
+        "https://trail-gear.example/hiking/": "27 chars",
+        "https://trail-gear.example/footwear/": "29 chars",
+        "https://trail-gear.example/sale/": "20 chars",
+        "https://trail-gear.example/blog/": "22 chars",
+        "https://trail-gear.example/about/": "24 chars",
+        "https://trail-gear.example/store-locator/": "28 chars",
+        "https://trail-gear.example/p/alpine-tent/": "27 chars",
+        "https://trail-gear.example/p/alpine-stove/": "28 chars",
+        "https://trail-gear.example/p/ridge-tent/": "26 chars",
+        "https://trail-gear.example/p/ridge-stove/": "27 chars",
+        "https://trail-gear.example/p/summit-stove/": "28 chars",
+        "https://trail-gear.example/p/canyon-tent/": "27 chars",
+        "https://trail-gear.example/p/glacier-tent/": "28 chars",
+        "https://trail-gear.example/p/basin-stove/": "27 chars",
+        "https://trail-gear.example/p/pioneer-tent/": "28 chars",
+        "https://trail-gear.example/p/pioneer-stove/": "29 chars",
+        "https://trail-gear.example/p/ridge-daypack/": "29 chars",
+        "https://trail-gear.example/p/trail-daypack/": "29 chars",
+        "https://trail-gear.example/thank-you/": "25 chars",
+        "https://trail-gear.example/catalogue/": "25 chars",
+        "https://trail-gear.example/orphan-guide/": "28 chars",
+        "https://trail-gear.example/orphan-offer/": "28 chars",
+        "https://trail-gear.example/slow/": "28 chars"
+      }
+    },
+    {
+      "id": "images-no-alt",
+      "severity": "warning",
+      "category": "content",
+      "title": "Images without alt attribute",
+      "why": "Alt text feeds image search and accessibility.",
+      "fix": "Add descriptive alt text (alt=\"\" for pure decoration).",
+      "count": 7,
+      "urls": [
+        "https://trail-gear.example/p/ridge-tent/",
+        "https://trail-gear.example/p/canyon-tent/",
+        "https://trail-gear.example/p/ridge-water-filter/",
+        "https://trail-gear.example/p/trail-daypack/",
+        "https://trail-gear.example/p/alpine-trail-shoe/",
+        "https://trail-gear.example/p/canyon-trail-shoe/",
+        "https://trail-gear.example/p/pioneer-wool-socks/"
+      ],
+      "details": {
+        "https://trail-gear.example/p/ridge-tent/": "1 of 2",
+        "https://trail-gear.example/p/canyon-tent/": "1 of 2",
+        "https://trail-gear.example/p/ridge-water-filter/": "1 of 2",
+        "https://trail-gear.example/p/trail-daypack/": "1 of 2",
+        "https://trail-gear.example/p/alpine-trail-shoe/": "1 of 2",
+        "https://trail-gear.example/p/canyon-trail-shoe/": "1 of 2",
+        "https://trail-gear.example/p/pioneer-wool-socks/": "1 of 2"
+      }
+    },
+    {
+      "id": "thin-content",
+      "severity": "warning",
+      "category": "content",
+      "title": "Fewer than 200 words",
+      "why": "Thin pages rarely rank for competitive terms.",
+      "fix": "Add useful, unique content or consolidate the page.",
+      "count": 5,
+      "urls": [
+        "https://trail-gear.example/sale/",
+        "https://trail-gear.example/blog/",
+        "https://trail-gear.example/about/",
+        "https://trail-gear.example/store-locator/",
+        "https://trail-gear.example/thank-you/"
+      ],
+      "details": {
+        "https://trail-gear.example/sale/": "175 words",
+        "https://trail-gear.example/blog/": "37 words",
+        "https://trail-gear.example/about/": "106 words",
+        "https://trail-gear.example/store-locator/": "137 words",
+        "https://trail-gear.example/thank-you/": "66 words"
+      }
+    },
+    {
+      "id": "orphan-page",
+      "severity": "warning",
+      "category": "links",
+      "title": "Page has no internal links pointing to it",
+      "why": "Crawlers and visitors cannot find it by clicking.",
+      "fix": "Link to it from relevant pages.",
+      "count": 4,
+      "urls": [
+        "https://trail-gear.example/catalogue/",
+        "https://trail-gear.example/orphan-guide/",
+        "https://trail-gear.example/orphan-offer/",
+        "https://trail-gear.example/slow/"
+      ],
+      "details": {}
+    },
+    {
+      "id": "meta-missing",
+      "severity": "warning",
+      "category": "content",
+      "title": "Missing meta description",
+      "why": "Google writes its own snippet, often a worse one.",
+      "fix": "Add a 70–160 character description.",
+      "count": 3,
+      "urls": [
+        "https://trail-gear.example/p/canyon-tent/",
+        "https://trail-gear.example/p/pioneer-tent/",
+        "https://trail-gear.example/p/canyon-trail-shoe/"
+      ],
+      "details": {}
+    },
+    {
+      "id": "meta-duplicate",
+      "severity": "warning",
+      "category": "content",
+      "title": "Duplicate meta description",
+      "why": "Identical snippets across pages.",
+      "fix": "Write a unique description per page.",
+      "count": 2,
+      "urls": [
+        "https://trail-gear.example/orphan-guide/",
+        "https://trail-gear.example/orphan-offer/"
+      ],
+      "details": {
+        "https://trail-gear.example/orphan-guide/": "2 pages",
+        "https://trail-gear.example/orphan-offer/": "2 pages"
+      }
+    },
+    {
+      "id": "large-html",
+      "severity": "warning",
+      "category": "performance",
+      "title": "HTML document over 500 KB",
+      "why": "Heavy HTML slows parsing on phones.",
+      "fix": "Trim inline scripts and data from the document.",
+      "count": 1,
+      "urls": [
+        "https://trail-gear.example/catalogue/"
+      ],
+      "details": {
+        "https://trail-gear.example/catalogue/": "520 KB"
+      }
+    },
+    {
+      "id": "slow-response",
+      "severity": "warning",
+      "category": "performance",
+      "title": "Slow server response (over 800 ms)",
+      "why": "A slow first byte delays everything else.",
+      "fix": "Cache the page, tune the backend or use a CDN.",
+      "count": 1,
+      "urls": [
+        "https://trail-gear.example/slow/"
+      ],
+      "details": {
+        "https://trail-gear.example/slow/": "958 ms"
+      }
+    },
+    {
+      "id": "og-missing",
+      "severity": "notice",
+      "category": "social",
+      "title": "Missing Open Graph tags",
+      "why": "Shared links will look plain on Facebook, LinkedIn and Slack.",
+      "fix": "Add og:title, og:description and og:image.",
+      "count": 63,
+      "urls": [
+        "https://trail-gear.example/",
+        "https://trail-gear.example/camping/",
+        "https://trail-gear.example/hiking/",
+        "https://trail-gear.example/footwear/",
+        "https://trail-gear.example/sale/",
+        "https://trail-gear.example/blog/",
+        "https://trail-gear.example/about/",
+        "https://trail-gear.example/store-locator/",
+        "https://trail-gear.example/p/alpine-tent/",
+        "https://trail-gear.example/p/alpine-stove/",
+        "https://trail-gear.example/p/alpine-lantern/",
+        "https://trail-gear.example/p/ridge-tent/",
+        "https://trail-gear.example/p/ridge-stove/",
+        "https://trail-gear.example/p/summit-stove/",
+        "https://trail-gear.example/p/summit-sleeping-bag/",
+        "https://trail-gear.example/p/canyon-tent/",
+        "https://trail-gear.example/p/canyon-sleeping-bag/",
+        "https://trail-gear.example/p/canyon-lantern/",
+        "https://trail-gear.example/p/glacier-tent/",
+        "https://trail-gear.example/p/glacier-sleeping-bag/",
+        "https://trail-gear.example/p/glacier-lantern/",
+        "https://trail-gear.example/p/basin-stove/",
+        "https://trail-gear.example/p/basin-sleeping-bag/",
+        "https://trail-gear.example/p/pioneer-tent/",
+        "https://trail-gear.example/p/pioneer-stove/",
+        "https://trail-gear.example/p/alpine-daypack/",
+        "https://trail-gear.example/p/alpine-rain-jacket/",
+        "https://trail-gear.example/p/alpine-trekking-poles/",
+        "https://trail-gear.example/p/ridge-daypack/",
+        "https://trail-gear.example/p/ridge-trekking-poles/",
+        "https://trail-gear.example/p/ridge-water-filter/",
+        "https://trail-gear.example/p/summit-daypack/",
+        "https://trail-gear.example/p/summit-trekking-poles/",
+        "https://trail-gear.example/p/summit-water-filter/",
+        "https://trail-gear.example/p/trail-daypack/",
+        "https://trail-gear.example/p/trail-rain-jacket/",
+        "https://trail-gear.example/p/trail-trekking-poles/",
+        "https://trail-gear.example/p/canyon-rain-jacket/",
+        "https://trail-gear.example/p/glacier-daypack/",
+        "https://trail-gear.example/p/glacier-rain-jacket/",
+        "https://trail-gear.example/p/glacier-trekking-poles/",
+        "https://trail-gear.example/p/basin-rain-jacket/",
+        "https://trail-gear.example/p/basin-trekking-poles/",
+        "https://trail-gear.example/p/pioneer-daypack/",
+        "https://trail-gear.example/p/pioneer-rain-jacket/",
+        "https://trail-gear.example/p/pioneer-trekking-poles/",
+        "https://trail-gear.example/p/pioneer-water-filter/",
+        "https://trail-gear.example/p/alpine-trail-shoe/",
+        "https://trail-gear.example/p/ridge-wool-socks/",
+        "https://trail-gear.example/p/canyon-trail-shoe/",
+        "https://trail-gear.example/p/glacier-hiking-boot/",
+        "https://trail-gear.example/p/pioneer-wool-socks/",
+        "https://trail-gear.example/blog/how-to-pick-a-tent/",
+        "https://trail-gear.example/blog/layering-for-cold-trails/",
+        "https://trail-gear.example/blog/water-filters-compared/",
+        "https://trail-gear.example/blog/a-first-overnight-hike/",
+        "https://trail-gear.example/blog/boot-fit-guide/",
+        "https://trail-gear.example/blog/winter-camping-basics/",
+        "https://trail-gear.example/thank-you/",
+        "https://trail-gear.example/catalogue/",
+        "https://trail-gear.example/orphan-guide/",
+        "https://trail-gear.example/orphan-offer/",
+        "https://trail-gear.example/slow/"
+      ],
+      "details": {}
+    },
+    {
+      "id": "twitter-missing",
+      "severity": "notice",
+      "category": "social",
+      "title": "Missing Twitter card",
+      "why": "Shared links on X will look plain.",
+      "fix": "Add twitter:card.",
+      "count": 63,
+      "urls": [
+        "https://trail-gear.example/",
+        "https://trail-gear.example/camping/",
+        "https://trail-gear.example/hiking/",
+        "https://trail-gear.example/footwear/",
+        "https://trail-gear.example/sale/",
+        "https://trail-gear.example/blog/",
+        "https://trail-gear.example/about/",
+        "https://trail-gear.example/store-locator/",
+        "https://trail-gear.example/p/alpine-tent/",
+        "https://trail-gear.example/p/alpine-stove/",
+        "https://trail-gear.example/p/alpine-lantern/",
+        "https://trail-gear.example/p/ridge-tent/",
+        "https://trail-gear.example/p/ridge-stove/",
+        "https://trail-gear.example/p/summit-stove/",
+        "https://trail-gear.example/p/summit-sleeping-bag/",
+        "https://trail-gear.example/p/canyon-tent/",
+        "https://trail-gear.example/p/canyon-sleeping-bag/",
+        "https://trail-gear.example/p/canyon-lantern/",
+        "https://trail-gear.example/p/glacier-tent/",
+        "https://trail-gear.example/p/glacier-sleeping-bag/",
+        "https://trail-gear.example/p/glacier-lantern/",
+        "https://trail-gear.example/p/basin-stove/",
+        "https://trail-gear.example/p/basin-sleeping-bag/",
+        "https://trail-gear.example/p/pioneer-tent/",
+        "https://trail-gear.example/p/pioneer-stove/",
+        "https://trail-gear.example/p/alpine-daypack/",
+        "https://trail-gear.example/p/alpine-rain-jacket/",
+        "https://trail-gear.example/p/alpine-trekking-poles/",
+        "https://trail-gear.example/p/ridge-daypack/",
+        "https://trail-gear.example/p/ridge-trekking-poles/",
+        "https://trail-gear.example/p/ridge-water-filter/",
+        "https://trail-gear.example/p/summit-daypack/",
+        "https://trail-gear.example/p/summit-trekking-poles/",
+        "https://trail-gear.example/p/summit-water-filter/",
+        "https://trail-gear.example/p/trail-daypack/",
+        "https://trail-gear.example/p/trail-rain-jacket/",
+        "https://trail-gear.example/p/trail-trekking-poles/",
+        "https://trail-gear.example/p/canyon-rain-jacket/",
+        "https://trail-gear.example/p/glacier-daypack/",
+        "https://trail-gear.example/p/glacier-rain-jacket/",
+        "https://trail-gear.example/p/glacier-trekking-poles/",
+        "https://trail-gear.example/p/basin-rain-jacket/",
+        "https://trail-gear.example/p/basin-trekking-poles/",
+        "https://trail-gear.example/p/pioneer-daypack/",
+        "https://trail-gear.example/p/pioneer-rain-jacket/",
+        "https://trail-gear.example/p/pioneer-trekking-poles/",
+        "https://trail-gear.example/p/pioneer-water-filter/",
+        "https://trail-gear.example/p/alpine-trail-shoe/",
+        "https://trail-gear.example/p/ridge-wool-socks/",
+        "https://trail-gear.example/p/canyon-trail-shoe/",
+        "https://trail-gear.example/p/glacier-hiking-boot/",
+        "https://trail-gear.example/p/pioneer-wool-socks/",
+        "https://trail-gear.example/blog/how-to-pick-a-tent/",
+        "https://trail-gear.example/blog/layering-for-cold-trails/",
+        "https://trail-gear.example/blog/water-filters-compared/",
+        "https://trail-gear.example/blog/a-first-overnight-hike/",
+        "https://trail-gear.example/blog/boot-fit-guide/",
+        "https://trail-gear.example/blog/winter-camping-basics/",
+        "https://trail-gear.example/thank-you/",
+        "https://trail-gear.example/catalogue/",
+        "https://trail-gear.example/orphan-guide/",
+        "https://trail-gear.example/orphan-offer/",
+        "https://trail-gear.example/slow/"
+      ],
+      "details": {}
+    },
+    {
+      "id": "schema-missing",
+      "severity": "notice",
+      "category": "structured-data",
+      "title": "No structured data",
+      "why": "No eligibility for rich results.",
+      "fix": "Add JSON-LD (Product, Article, FAQ, Organization…).",
+      "count": 18,
+      "urls": [
+        "https://trail-gear.example/camping/",
+        "https://trail-gear.example/hiking/",
+        "https://trail-gear.example/footwear/",
+        "https://trail-gear.example/sale/",
+        "https://trail-gear.example/blog/",
+        "https://trail-gear.example/about/",
+        "https://trail-gear.example/store-locator/",
+        "https://trail-gear.example/p/pioneer-tent/",
+        "https://trail-gear.example/p/ridge-water-filter/",
+        "https://trail-gear.example/p/summit-water-filter/",
+        "https://trail-gear.example/p/trail-trekking-poles/",
+        "https://trail-gear.example/p/glacier-daypack/",
+        "https://trail-gear.example/p/pioneer-wool-socks/",
+        "https://trail-gear.example/thank-you/",
+        "https://trail-gear.example/catalogue/",
+        "https://trail-gear.example/orphan-guide/",
+        "https://trail-gear.example/orphan-offer/",
+        "https://trail-gear.example/slow/"
+      ],
+      "details": {}
+    },
+    {
+      "id": "meta-short",
+      "severity": "notice",
+      "category": "content",
+      "title": "Meta description shorter than 70 characters",
+      "why": "A short snippet misses a chance to sell the click.",
+      "fix": "Expand to 70–160 characters.",
+      "count": 15,
+      "urls": [
+        "https://trail-gear.example/sale/",
+        "https://trail-gear.example/blog/",
+        "https://trail-gear.example/about/",
+        "https://trail-gear.example/store-locator/",
+        "https://trail-gear.example/blog/how-to-pick-a-tent/",
+        "https://trail-gear.example/blog/layering-for-cold-trails/",
+        "https://trail-gear.example/blog/water-filters-compared/",
+        "https://trail-gear.example/blog/a-first-overnight-hike/",
+        "https://trail-gear.example/blog/boot-fit-guide/",
+        "https://trail-gear.example/blog/winter-camping-basics/",
+        "https://trail-gear.example/thank-you/",
+        "https://trail-gear.example/catalogue/",
+        "https://trail-gear.example/orphan-guide/",
+        "https://trail-gear.example/orphan-offer/",
+        "https://trail-gear.example/slow/"
+      ],
+      "details": {
+        "https://trail-gear.example/sale/": "45 chars",
+        "https://trail-gear.example/blog/": "45 chars",
+        "https://trail-gear.example/about/": "31 chars",
+        "https://trail-gear.example/store-locator/": "16 chars",
+        "https://trail-gear.example/blog/how-to-pick-a-tent/": "54 chars",
+        "https://trail-gear.example/blog/layering-for-cold-trails/": "60 chars",
+        "https://trail-gear.example/blog/water-filters-compared/": "58 chars",
+        "https://trail-gear.example/blog/a-first-overnight-hike/": "58 chars",
+        "https://trail-gear.example/blog/boot-fit-guide/": "50 chars",
+        "https://trail-gear.example/blog/winter-camping-basics/": "57 chars",
+        "https://trail-gear.example/thank-you/": "15 chars",
+        "https://trail-gear.example/catalogue/": "19 chars",
+        "https://trail-gear.example/orphan-guide/": "25 chars",
+        "https://trail-gear.example/orphan-offer/": "25 chars",
+        "https://trail-gear.example/slow/": "13 chars"
+      }
+    },
+    {
+      "id": "low-inlinks",
+      "severity": "notice",
+      "category": "links",
+      "title": "Only one internal link points to this page",
+      "why": "Little internal authority flows to it.",
+      "fix": "Add contextual internal links.",
+      "count": 6,
+      "urls": [
+        "https://trail-gear.example/blog/how-to-pick-a-tent/",
+        "https://trail-gear.example/blog/layering-for-cold-trails/",
+        "https://trail-gear.example/blog/water-filters-compared/",
+        "https://trail-gear.example/blog/a-first-overnight-hike/",
+        "https://trail-gear.example/blog/boot-fit-guide/",
+        "https://trail-gear.example/blog/winter-camping-basics/"
+      ],
+      "details": {}
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://trail-gear.example/",
+      "finalUrl": "https://trail-gear.example/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 0,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Trail Gear Co | Camping and hiking gear",
+      "description": "Tents, packs, boots and stoves for every trip. Free shipping over $99 from Trail Gear Co.",
+      "h1": "Gear for the long way round",
+      "h1Count": 1,
+      "h2": [],
+      "words": 204,
+      "ttfb": 27,
+      "bytes": 2288,
+      "inlinks": 62,
+      "inlinkAnchors": [
+        {
+          "text": "Home",
+          "n": 62
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 93,
+      "canonical": "https://trail-gear.example/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 1,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Organization"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "fleece",
+            "count": 10
+          },
+          {
+            "term": "valley",
+            "count": 10
+          },
+          {
+            "term": "trail",
+            "count": 9
+          },
+          {
+            "term": "merino",
+            "count": 8
+          },
+          {
+            "term": "waterproof",
+            "count": 8
+          },
+          {
+            "term": "stove",
+            "count": 7
+          },
+          {
+            "term": "lantern",
+            "count": 7
+          },
+          {
+            "term": "season",
+            "count": 7
+          }
+        ],
+        "phrases": [
+          {
+            "term": "fleece fleece",
+            "count": 3
+          },
+          {
+            "term": "camping hiking",
+            "count": 2
+          },
+          {
+            "term": "hiking footwear",
+            "count": 2
+          },
+          {
+            "term": "fleece stove",
+            "count": 2
+          },
+          {
+            "term": "durable insulated",
+            "count": 2
+          },
+          {
+            "term": "ridge trail",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 98,
+      "issues": [
+        "og-missing",
+        "twitter-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/camping/",
+      "finalUrl": "https://trail-gear.example/camping/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 1,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Camping gear | Trail Gear Co",
+      "description": "Shop camping gear from Trail Gear Co: 17 products, tested on the trail.",
+      "h1": "Camping gear",
+      "h1Count": 1,
+      "h2": [],
+      "words": 274,
+      "ttfb": 19,
+      "bytes": 3074,
+      "inlinks": 62,
+      "inlinkAnchors": [
+        {
+          "text": "Camping",
+          "n": 62
+        }
+      ],
+      "outInternal": 25,
+      "outExternal": 0,
+      "linkScore": 99,
+      "canonical": "https://trail-gear.example/camping/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 0,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [],
+      "terms": {
+        "words": [
+          {
+            "term": "bag",
+            "count": 12
+          },
+          {
+            "term": "stove",
+            "count": 12
+          },
+          {
+            "term": "ridge",
+            "count": 11
+          },
+          {
+            "term": "tent",
+            "count": 10
+          },
+          {
+            "term": "cord",
+            "count": 10
+          },
+          {
+            "term": "compass",
+            "count": 9
+          },
+          {
+            "term": "light",
+            "count": 9
+          },
+          {
+            "term": "map",
+            "count": 9
+          }
+        ],
+        "phrases": [
+          {
+            "term": "sleeping bag",
+            "count": 4
+          },
+          {
+            "term": "compass wind",
+            "count": 2
+          },
+          {
+            "term": "ridge tent",
+            "count": 2
+          },
+          {
+            "term": "light wind",
+            "count": 2
+          },
+          {
+            "term": "map stove",
+            "count": 2
+          },
+          {
+            "term": "tent map",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 91,
+      "issues": [
+        "title-short",
+        "og-missing",
+        "twitter-missing",
+        "schema-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/hiking/",
+      "finalUrl": "https://trail-gear.example/hiking/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 1,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Hiking gear | Trail Gear Co",
+      "description": "Shop hiking gear from Trail Gear Co: 22 products, tested on the trail.",
+      "h1": "Hiking gear",
+      "h1Count": 1,
+      "h2": [],
+      "words": 296,
+      "ttfb": 20,
+      "bytes": 3514,
+      "inlinks": 62,
+      "inlinkAnchors": [
+        {
+          "text": "Hiking",
+          "n": 62
+        }
+      ],
+      "outInternal": 30,
+      "outExternal": 0,
+      "linkScore": 100,
+      "canonical": "https://trail-gear.example/hiking/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 0,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [],
+      "terms": {
+        "words": [
+          {
+            "term": "jacket",
+            "count": 15
+          },
+          {
+            "term": "map",
+            "count": 15
+          },
+          {
+            "term": "trail",
+            "count": 13
+          },
+          {
+            "term": "pack",
+            "count": 13
+          },
+          {
+            "term": "season",
+            "count": 11
+          },
+          {
+            "term": "rain",
+            "count": 11
+          },
+          {
+            "term": "bottle",
+            "count": 10
+          },
+          {
+            "term": "ridge",
+            "count": 9
+          }
+        ],
+        "phrases": [
+          {
+            "term": "trekking poles",
+            "count": 7
+          },
+          {
+            "term": "rain jacket",
+            "count": 6
+          },
+          {
+            "term": "season season",
+            "count": 3
+          },
+          {
+            "term": "jacket map",
+            "count": 3
+          },
+          {
+            "term": "lantern shell",
+            "count": 3
+          },
+          {
+            "term": "water filter",
+            "count": 3
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 91,
+      "issues": [
+        "title-short",
+        "og-missing",
+        "twitter-missing",
+        "schema-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/footwear/",
+      "finalUrl": "https://trail-gear.example/footwear/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 1,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Footwear gear | Trail Gear Co",
+      "description": "Shop footwear gear from Trail Gear Co: 5 products, tested on the trail.",
+      "h1": "Footwear gear",
+      "h1Count": 1,
+      "h2": [],
+      "words": 251,
+      "ttfb": 21,
+      "bytes": 2493,
+      "inlinks": 62,
+      "inlinkAnchors": [
+        {
+          "text": "Footwear",
+          "n": 62
+        }
+      ],
+      "outInternal": 13,
+      "outExternal": 0,
+      "linkScore": 96,
+      "canonical": "https://trail-gear.example/footwear/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 0,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [],
+      "terms": {
+        "words": [
+          {
+            "term": "fleece",
+            "count": 13
+          },
+          {
+            "term": "filter",
+            "count": 11
+          },
+          {
+            "term": "lantern",
+            "count": 11
+          },
+          {
+            "term": "tent",
+            "count": 10
+          },
+          {
+            "term": "bag",
+            "count": 10
+          },
+          {
+            "term": "river",
+            "count": 10
+          },
+          {
+            "term": "stove",
+            "count": 9
+          },
+          {
+            "term": "summit",
+            "count": 9
+          }
+        ],
+        "phrases": [
+          {
+            "term": "filter light",
+            "count": 3
+          },
+          {
+            "term": "waterproof river",
+            "count": 3
+          },
+          {
+            "term": "cord filter",
+            "count": 2
+          },
+          {
+            "term": "merino durable",
+            "count": 2
+          },
+          {
+            "term": "lantern stove",
+            "count": 2
+          },
+          {
+            "term": "family lantern",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 91,
+      "issues": [
+        "title-short",
+        "og-missing",
+        "twitter-missing",
+        "schema-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/sale/",
+      "finalUrl": "https://trail-gear.example/sale/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 1,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Sale | Trail Gear Co",
+      "description": "Seasonal markdowns on tents, boots and packs.",
+      "h1": "Sale",
+      "h1Count": 1,
+      "h2": [],
+      "words": 175,
+      "ttfb": 13,
+      "bytes": 1694,
+      "inlinks": 62,
+      "inlinkAnchors": [
+        {
+          "text": "Sale",
+          "n": 62
+        }
+      ],
+      "outInternal": 8,
+      "outExternal": 0,
+      "linkScore": 92,
+      "canonical": "https://trail-gear.example/sale/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 0,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [],
+      "terms": {
+        "words": [
+          {
+            "term": "bag",
+            "count": 11
+          },
+          {
+            "term": "camp",
+            "count": 8
+          },
+          {
+            "term": "season",
+            "count": 8
+          },
+          {
+            "term": "boot",
+            "count": 6
+          },
+          {
+            "term": "fleece",
+            "count": 6
+          },
+          {
+            "term": "map",
+            "count": 6
+          },
+          {
+            "term": "cord",
+            "count": 6
+          },
+          {
+            "term": "compact",
+            "count": 6
+          }
+        ],
+        "phrases": [
+          {
+            "term": "bag bag",
+            "count": 3
+          },
+          {
+            "term": "family merino",
+            "count": 2
+          },
+          {
+            "term": "tent rain",
+            "count": 2
+          },
+          {
+            "term": "sleeping season",
+            "count": 2
+          },
+          {
+            "term": "season map",
+            "count": 2
+          },
+          {
+            "term": "pack durable",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 84,
+      "issues": [
+        "title-short",
+        "meta-short",
+        "thin-content",
+        "og-missing",
+        "twitter-missing",
+        "schema-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/blog/",
+      "finalUrl": "https://trail-gear.example/blog/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 1,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Guides | Trail Gear Co",
+      "description": "Practical guides from the Trail Gear Co team.",
+      "h1": "Guides",
+      "h1Count": 1,
+      "h2": [],
+      "words": 37,
+      "ttfb": 17,
+      "bytes": 1112,
+      "inlinks": 62,
+      "inlinkAnchors": [
+        {
+          "text": "Guides",
+          "n": 62
+        }
+      ],
+      "outInternal": 14,
+      "outExternal": 0,
+      "linkScore": 97,
+      "canonical": "https://trail-gear.example/blog/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 0,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [],
+      "terms": {
+        "words": [],
+        "phrases": []
+      },
+      "brokenLinks": [],
+      "score": 84,
+      "issues": [
+        "title-short",
+        "meta-short",
+        "thin-content",
+        "og-missing",
+        "twitter-missing",
+        "schema-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/about/",
+      "finalUrl": "https://trail-gear.example/about/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 1,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "About us | Trail Gear Co",
+      "description": "The story behind Trail Gear Co.",
+      "h1": "About us",
+      "h1Count": 1,
+      "h2": [],
+      "words": 106,
+      "ttfb": 18,
+      "bytes": 1271,
+      "inlinks": 62,
+      "inlinkAnchors": [
+        {
+          "text": "About",
+          "n": 62
+        }
+      ],
+      "outInternal": 8,
+      "outExternal": 0,
+      "linkScore": 92,
+      "canonical": "https://trail-gear.example/about/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 0,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [],
+      "terms": {
+        "words": [
+          {
+            "term": "insulated",
+            "count": 7
+          },
+          {
+            "term": "fleece",
+            "count": 6
+          },
+          {
+            "term": "river",
+            "count": 6
+          },
+          {
+            "term": "bottle",
+            "count": 5
+          },
+          {
+            "term": "shell",
+            "count": 5
+          },
+          {
+            "term": "tent",
+            "count": 4
+          },
+          {
+            "term": "family",
+            "count": 4
+          },
+          {
+            "term": "grip",
+            "count": 4
+          }
+        ],
+        "phrases": [
+          {
+            "term": "bottle tent",
+            "count": 2
+          },
+          {
+            "term": "valley shell",
+            "count": 2
+          },
+          {
+            "term": "insulated insulated",
+            "count": 2
+          },
+          {
+            "term": "sleeping bottle",
+            "count": 2
+          },
+          {
+            "term": "fleece fleece",
+            "count": 2
+          },
+          {
+            "term": "tent river",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 84,
+      "issues": [
+        "title-short",
+        "meta-short",
+        "thin-content",
+        "og-missing",
+        "twitter-missing",
+        "schema-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/store-locator/",
+      "finalUrl": "https://trail-gear.example/store-locator/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 1,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Find a store | Trail Gear Co",
+      "description": "Stores near you.",
+      "h1": "Find a store",
+      "h1Count": 1,
+      "h2": [],
+      "words": 137,
+      "ttfb": 19,
+      "bytes": 1466,
+      "inlinks": 62,
+      "inlinkAnchors": [
+        {
+          "text": "Stores",
+          "n": 62
+        }
+      ],
+      "outInternal": 8,
+      "outExternal": 0,
+      "linkScore": 92,
+      "canonical": "https://trail-gear.example/store-locator/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 0,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [],
+      "terms": {
+        "words": [
+          {
+            "term": "trail",
+            "count": 11
+          },
+          {
+            "term": "wind",
+            "count": 6
+          },
+          {
+            "term": "camp",
+            "count": 5
+          },
+          {
+            "term": "stove",
+            "count": 5
+          },
+          {
+            "term": "insulated",
+            "count": 5
+          },
+          {
+            "term": "pack",
+            "count": 5
+          },
+          {
+            "term": "jacket",
+            "count": 5
+          },
+          {
+            "term": "river",
+            "count": 4
+          }
+        ],
+        "phrases": [
+          {
+            "term": "wind jacket",
+            "count": 2
+          },
+          {
+            "term": "camp pack",
+            "count": 2
+          },
+          {
+            "term": "trail trail",
+            "count": 2
+          },
+          {
+            "term": "fleece durable",
+            "count": 2
+          },
+          {
+            "term": "filter shell",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 84,
+      "issues": [
+        "title-short",
+        "meta-short",
+        "thin-content",
+        "og-missing",
+        "twitter-missing",
+        "schema-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/alpine-tent/",
+      "finalUrl": "https://trail-gear.example/p/alpine-tent/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 1,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Alpine Tent | Trail Gear Co",
+      "description": "Alpine Tent: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Alpine Tent",
+      "h1Count": 1,
+      "h2": [],
+      "words": 280,
+      "ttfb": 16,
+      "bytes": 2812,
+      "inlinks": 3,
+      "inlinkAnchors": [
+        {
+          "text": "Featured",
+          "n": 1
+        },
+        {
+          "text": "Alpine Tent",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 17,
+      "canonical": "https://trail-gear.example/p/alpine-tent/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Product"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "compact",
+            "count": 15
+          },
+          {
+            "term": "canyon",
+            "count": 15
+          },
+          {
+            "term": "jacket",
+            "count": 12
+          },
+          {
+            "term": "grip",
+            "count": 12
+          },
+          {
+            "term": "filter",
+            "count": 11
+          },
+          {
+            "term": "tent",
+            "count": 10
+          },
+          {
+            "term": "trail",
+            "count": 10
+          },
+          {
+            "term": "lantern",
+            "count": 10
+          }
+        ],
+        "phrases": [
+          {
+            "term": "river fleece",
+            "count": 3
+          },
+          {
+            "term": "canyon valley",
+            "count": 3
+          },
+          {
+            "term": "compact compact",
+            "count": 3
+          },
+          {
+            "term": "trail lantern",
+            "count": 2
+          },
+          {
+            "term": "grip filter",
+            "count": 2
+          },
+          {
+            "term": "filter compact",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 92,
+      "issues": [
+        "title-short",
+        "og-missing",
+        "twitter-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/alpine-stove/",
+      "finalUrl": "https://trail-gear.example/p/alpine-stove/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Alpine Stove | Trail Gear Co",
+      "description": "Alpine Stove: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Alpine Stove",
+      "h1Count": 1,
+      "h2": [],
+      "words": 280,
+      "ttfb": 18,
+      "bytes": 2797,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Alpine Stove",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 8,
+      "canonical": "https://trail-gear.example/p/alpine-stove/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Product"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "tent",
+            "count": 16
+          },
+          {
+            "term": "pack",
+            "count": 14
+          },
+          {
+            "term": "bottle",
+            "count": 13
+          },
+          {
+            "term": "trail",
+            "count": 13
+          },
+          {
+            "term": "waterproof",
+            "count": 11
+          },
+          {
+            "term": "grip",
+            "count": 10
+          },
+          {
+            "term": "sleeping",
+            "count": 10
+          },
+          {
+            "term": "family",
+            "count": 10
+          }
+        ],
+        "phrases": [
+          {
+            "term": "stove trail",
+            "count": 3
+          },
+          {
+            "term": "bottle light",
+            "count": 3
+          },
+          {
+            "term": "trail bottle",
+            "count": 3
+          },
+          {
+            "term": "pack hike",
+            "count": 2
+          },
+          {
+            "term": "grip tent",
+            "count": 2
+          },
+          {
+            "term": "sleeping river",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 92,
+      "issues": [
+        "title-short",
+        "og-missing",
+        "twitter-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/alpine-lantern/",
+      "finalUrl": "https://trail-gear.example/p/alpine-lantern/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Alpine Lantern | Trail Gear Co",
+      "description": "Alpine Lantern: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Alpine Lantern",
+      "h1Count": 1,
+      "h2": [],
+      "words": 280,
+      "ttfb": 18,
+      "bytes": 2803,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Alpine Lantern",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 7,
+      "canonical": "https://trail-gear.example/p/alpine-lantern/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Product"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "trail",
+            "count": 16
+          },
+          {
+            "term": "shell",
+            "count": 14
+          },
+          {
+            "term": "pack",
+            "count": 14
+          },
+          {
+            "term": "sleeping",
+            "count": 12
+          },
+          {
+            "term": "lantern",
+            "count": 11
+          },
+          {
+            "term": "durable",
+            "count": 10
+          },
+          {
+            "term": "hike",
+            "count": 10
+          },
+          {
+            "term": "summit",
+            "count": 10
+          }
+        ],
+        "phrases": [
+          {
+            "term": "shell bag",
+            "count": 3
+          },
+          {
+            "term": "season trail",
+            "count": 2
+          },
+          {
+            "term": "pack summit",
+            "count": 2
+          },
+          {
+            "term": "family lantern",
+            "count": 2
+          },
+          {
+            "term": "lantern compact",
+            "count": 2
+          },
+          {
+            "term": "insulated merino",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 98,
+      "issues": [
+        "og-missing",
+        "twitter-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/ridge-tent/",
+      "finalUrl": "https://trail-gear.example/p/ridge-tent/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Ridge Tent | Trail Gear Co",
+      "description": "Ridge Tent: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Ridge Tent",
+      "h1Count": 1,
+      "h2": [],
+      "words": 280,
+      "ttfb": 19,
+      "bytes": 2775,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Ridge Tent",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 7,
+      "canonical": "https://trail-gear.example/p/ridge-tent/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 1,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Product"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "stove",
+            "count": 13
+          },
+          {
+            "term": "sleeping",
+            "count": 13
+          },
+          {
+            "term": "grip",
+            "count": 12
+          },
+          {
+            "term": "summit",
+            "count": 11
+          },
+          {
+            "term": "family",
+            "count": 11
+          },
+          {
+            "term": "boot",
+            "count": 10
+          },
+          {
+            "term": "merino",
+            "count": 10
+          },
+          {
+            "term": "lantern",
+            "count": 10
+          }
+        ],
+        "phrases": [
+          {
+            "term": "summit map",
+            "count": 3
+          },
+          {
+            "term": "tent stove",
+            "count": 3
+          },
+          {
+            "term": "bottle grip",
+            "count": 3
+          },
+          {
+            "term": "fleece camp",
+            "count": 2
+          },
+          {
+            "term": "waterproof bottle",
+            "count": 2
+          },
+          {
+            "term": "sleeping compass",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 86,
+      "issues": [
+        "title-short",
+        "images-no-alt",
+        "og-missing",
+        "twitter-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/ridge-stove/",
+      "finalUrl": "https://trail-gear.example/p/ridge-stove/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Ridge Stove | Trail Gear Co",
+      "description": "Ridge Stove: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Ridge Stove",
+      "h1Count": 1,
+      "h2": [],
+      "words": 280,
+      "ttfb": 16,
+      "bytes": 2784,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Ridge Stove",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 7,
+      "canonical": "https://trail-gear.example/p/ridge-stove/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Product"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "family",
+            "count": 13
+          },
+          {
+            "term": "jacket",
+            "count": 13
+          },
+          {
+            "term": "bottle",
+            "count": 13
+          },
+          {
+            "term": "pack",
+            "count": 11
+          },
+          {
+            "term": "compass",
+            "count": 11
+          },
+          {
+            "term": "filter",
+            "count": 10
+          },
+          {
+            "term": "trail",
+            "count": 10
+          },
+          {
+            "term": "cord",
+            "count": 10
+          }
+        ],
+        "phrases": [
+          {
+            "term": "tent filter",
+            "count": 3
+          },
+          {
+            "term": "pack filter",
+            "count": 3
+          },
+          {
+            "term": "bottle compass",
+            "count": 3
+          },
+          {
+            "term": "cord family",
+            "count": 2
+          },
+          {
+            "term": "trail stove",
+            "count": 2
+          },
+          {
+            "term": "light family",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 92,
+      "issues": [
+        "title-short",
+        "og-missing",
+        "twitter-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/summit-stove/",
+      "finalUrl": "https://trail-gear.example/p/summit-stove/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Summit Stove | Trail Gear Co",
+      "description": "Summit Stove: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Summit Stove",
+      "h1Count": 1,
+      "h2": [],
+      "words": 280,
+      "ttfb": 2,
+      "bytes": 2823,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Summit Stove",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 7,
+      "canonical": "https://trail-gear.example/p/summit-stove/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Product"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "filter",
+            "count": 13
+          },
+          {
+            "term": "bottle",
+            "count": 12
+          },
+          {
+            "term": "river",
+            "count": 12
+          },
+          {
+            "term": "lantern",
+            "count": 12
+          },
+          {
+            "term": "stove",
+            "count": 10
+          },
+          {
+            "term": "boot",
+            "count": 10
+          },
+          {
+            "term": "merino",
+            "count": 10
+          },
+          {
+            "term": "waterproof",
+            "count": 9
+          }
+        ],
+        "phrases": [
+          {
+            "term": "boot ridge",
+            "count": 3
+          },
+          {
+            "term": "summit stove",
+            "count": 2
+          },
+          {
+            "term": "stove filter",
+            "count": 2
+          },
+          {
+            "term": "summit sleeping",
+            "count": 2
+          },
+          {
+            "term": "valley bottle",
+            "count": 2
+          },
+          {
+            "term": "stove river",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 92,
+      "issues": [
+        "title-short",
+        "og-missing",
+        "twitter-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/summit-sleeping-bag/",
+      "finalUrl": "https://trail-gear.example/p/summit-sleeping-bag/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Summit Sleeping Bag | Trail Gear Co",
+      "description": "Summit Sleeping Bag: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Summit Sleeping Bag",
+      "h1Count": 1,
+      "h2": [],
+      "words": 281,
+      "ttfb": 7,
+      "bytes": 2854,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Summit Sleeping Bag",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 7,
+      "canonical": "https://trail-gear.example/p/summit-sleeping-bag/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Product"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "fleece",
+            "count": 17
+          },
+          {
+            "term": "compass",
+            "count": 13
+          },
+          {
+            "term": "ridge",
+            "count": 11
+          },
+          {
+            "term": "summit",
+            "count": 10
+          },
+          {
+            "term": "river",
+            "count": 10
+          },
+          {
+            "term": "bottle",
+            "count": 10
+          },
+          {
+            "term": "merino",
+            "count": 10
+          },
+          {
+            "term": "shell",
+            "count": 10
+          }
+        ],
+        "phrases": [
+          {
+            "term": "trail bottle",
+            "count": 3
+          },
+          {
+            "term": "fleece stove",
+            "count": 3
+          },
+          {
+            "term": "merino insulated",
+            "count": 3
+          },
+          {
+            "term": "summit sleeping",
+            "count": 2
+          },
+          {
+            "term": "sleeping bag",
+            "count": 2
+          },
+          {
+            "term": "hike stove",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 98,
+      "issues": [
+        "og-missing",
+        "twitter-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/canyon-tent/",
+      "finalUrl": "https://trail-gear.example/p/canyon-tent/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Canyon Tent | Trail Gear Co",
+      "description": "",
+      "h1": "Canyon Tent",
+      "h1Count": 1,
+      "h2": [],
+      "words": 280,
+      "ttfb": 9,
+      "bytes": 2653,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Canyon Tent",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 7,
+      "canonical": "https://trail-gear.example/p/canyon-tent/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 1,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Product"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "rain",
+            "count": 15
+          },
+          {
+            "term": "season",
+            "count": 12
+          },
+          {
+            "term": "sleeping",
+            "count": 12
+          },
+          {
+            "term": "family",
+            "count": 12
+          },
+          {
+            "term": "jacket",
+            "count": 11
+          },
+          {
+            "term": "summit",
+            "count": 10
+          },
+          {
+            "term": "hike",
+            "count": 10
+          },
+          {
+            "term": "lantern",
+            "count": 10
+          }
+        ],
+        "phrases": [
+          {
+            "term": "wind waterproof",
+            "count": 3
+          },
+          {
+            "term": "compact season",
+            "count": 2
+          },
+          {
+            "term": "insulated rain",
+            "count": 2
+          },
+          {
+            "term": "hike boot",
+            "count": 2
+          },
+          {
+            "term": "map jacket",
+            "count": 2
+          },
+          {
+            "term": "jacket pack",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 80,
+      "issues": [
+        "title-short",
+        "meta-missing",
+        "images-no-alt",
+        "og-missing",
+        "twitter-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/canyon-sleeping-bag/",
+      "finalUrl": "https://trail-gear.example/p/canyon-sleeping-bag/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Canyon Sleeping Bag | Trail Gear Co",
+      "description": "Canyon Sleeping Bag: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Canyon Sleeping Bag",
+      "h1Count": 1,
+      "h2": [],
+      "words": 281,
+      "ttfb": 5,
+      "bytes": 2788,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Canyon Sleeping Bag",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 7,
+      "canonical": "https://trail-gear.example/p/canyon-sleeping-bag/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Product"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "light",
+            "count": 14
+          },
+          {
+            "term": "bag",
+            "count": 13
+          },
+          {
+            "term": "hike",
+            "count": 12
+          },
+          {
+            "term": "camp",
+            "count": 12
+          },
+          {
+            "term": "valley",
+            "count": 11
+          },
+          {
+            "term": "filter",
+            "count": 11
+          },
+          {
+            "term": "trail",
+            "count": 11
+          },
+          {
+            "term": "canyon",
+            "count": 10
+          }
+        ],
+        "phrases": [
+          {
+            "term": "river light",
+            "count": 3
+          },
+          {
+            "term": "merino sleeping",
+            "count": 3
+          },
+          {
+            "term": "compact canyon",
+            "count": 2
+          },
+          {
+            "term": "waterproof merino",
+            "count": 2
+          },
+          {
+            "term": "valley hike",
+            "count": 2
+          },
+          {
+            "term": "hike river",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 98,
+      "issues": [
+        "og-missing",
+        "twitter-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/canyon-lantern/",
+      "finalUrl": "https://trail-gear.example/p/canyon-lantern/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Canyon Lantern | Trail Gear Co",
+      "description": "Canyon Lantern: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Canyon Lantern",
+      "h1Count": 1,
+      "h2": [],
+      "words": 280,
+      "ttfb": 23,
+      "bytes": 2809,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Canyon Lantern",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 7,
+      "canonical": "https://trail-gear.example/p/canyon-lantern/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Product"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "grip",
+            "count": 13
+          },
+          {
+            "term": "compact",
+            "count": 13
+          },
+          {
+            "term": "pack",
+            "count": 11
+          },
+          {
+            "term": "durable",
+            "count": 11
+          },
+          {
+            "term": "trail",
+            "count": 11
+          },
+          {
+            "term": "waterproof",
+            "count": 10
+          },
+          {
+            "term": "hike",
+            "count": 10
+          },
+          {
+            "term": "compass",
+            "count": 10
+          }
+        ],
+        "phrases": [
+          {
+            "term": "shell pack",
+            "count": 2
+          },
+          {
+            "term": "pack camp",
+            "count": 2
+          },
+          {
+            "term": "grip waterproof",
+            "count": 2
+          },
+          {
+            "term": "compass trail",
+            "count": 2
+          },
+          {
+            "term": "compact hike",
+            "count": 2
+          },
+          {
+            "term": "map rain",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 98,
+      "issues": [
+        "og-missing",
+        "twitter-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/glacier-tent/",
+      "finalUrl": "https://trail-gear.example/p/glacier-tent/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Glacier Tent | Trail Gear Co",
+      "description": "Glacier Tent: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Glacier Tent",
+      "h1Count": 1,
+      "h2": [],
+      "words": 280,
+      "ttfb": 23,
+      "bytes": 2780,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Glacier Tent",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 7,
+      "canonical": "https://trail-gear.example/p/glacier-tent/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Product"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "stove",
+            "count": 14
+          },
+          {
+            "term": "river",
+            "count": 13
+          },
+          {
+            "term": "fleece",
+            "count": 12
+          },
+          {
+            "term": "trail",
+            "count": 11
+          },
+          {
+            "term": "sleeping",
+            "count": 11
+          },
+          {
+            "term": "merino",
+            "count": 11
+          },
+          {
+            "term": "boot",
+            "count": 11
+          },
+          {
+            "term": "filter",
+            "count": 10
+          }
+        ],
+        "phrases": [
+          {
+            "term": "sleeping fleece",
+            "count": 3
+          },
+          {
+            "term": "tent filter",
+            "count": 2
+          },
+          {
+            "term": "river trail",
+            "count": 2
+          },
+          {
+            "term": "family cord",
+            "count": 2
+          },
+          {
+            "term": "bottle waterproof",
+            "count": 2
+          },
+          {
+            "term": "fleece insulated",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 92,
+      "issues": [
+        "title-short",
+        "og-missing",
+        "twitter-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/glacier-sleeping-bag/",
+      "finalUrl": "https://trail-gear.example/p/glacier-sleeping-bag/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Glacier Sleeping Bag | Trail Gear Co",
+      "description": "Glacier Sleeping Bag: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Glacier Sleeping Bag",
+      "h1Count": 1,
+      "h2": [],
+      "words": 281,
+      "ttfb": 23,
+      "bytes": 2857,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Glacier Sleeping Bag",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 7,
+      "canonical": "https://trail-gear.example/p/glacier-sleeping-bag/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Product"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "waterproof",
+            "count": 14
+          },
+          {
+            "term": "merino",
+            "count": 13
+          },
+          {
+            "term": "trail",
+            "count": 12
+          },
+          {
+            "term": "hike",
+            "count": 12
+          },
+          {
+            "term": "bag",
+            "count": 11
+          },
+          {
+            "term": "jacket",
+            "count": 11
+          },
+          {
+            "term": "fleece",
+            "count": 10
+          },
+          {
+            "term": "summit",
+            "count": 9
+          }
+        ],
+        "phrases": [
+          {
+            "term": "insulated rain",
+            "count": 3
+          },
+          {
+            "term": "shell bag",
+            "count": 3
+          },
+          {
+            "term": "sleeping bag",
+            "count": 2
+          },
+          {
+            "term": "bag bag",
+            "count": 2
+          },
+          {
+            "term": "bag jacket",
+            "count": 2
+          },
+          {
+            "term": "jacket camp",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 98,
+      "issues": [
+        "og-missing",
+        "twitter-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/glacier-lantern/",
+      "finalUrl": "https://trail-gear.example/p/glacier-lantern/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Glacier Lantern | Trail Gear Co",
+      "description": "Glacier Lantern: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Glacier Lantern",
+      "h1Count": 1,
+      "h2": [],
+      "words": 280,
+      "ttfb": 10,
+      "bytes": 2855,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Glacier Lantern",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 7,
+      "canonical": "https://trail-gear.example/p/glacier-lantern/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Product"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "waterproof",
+            "count": 13
+          },
+          {
+            "term": "bag",
+            "count": 12
+          },
+          {
+            "term": "lantern",
+            "count": 11
+          },
+          {
+            "term": "fleece",
+            "count": 11
+          },
+          {
+            "term": "sleeping",
+            "count": 11
+          },
+          {
+            "term": "trail",
+            "count": 10
+          },
+          {
+            "term": "season",
+            "count": 10
+          },
+          {
+            "term": "cord",
+            "count": 10
+          }
+        ],
+        "phrases": [
+          {
+            "term": "light river",
+            "count": 3
+          },
+          {
+            "term": "fleece map",
+            "count": 2
+          },
+          {
+            "term": "waterproof sleeping",
+            "count": 2
+          },
+          {
+            "term": "durable compact",
+            "count": 2
+          },
+          {
+            "term": "trail compass",
+            "count": 2
+          },
+          {
+            "term": "season cord",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 98,
+      "issues": [
+        "og-missing",
+        "twitter-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/basin-stove/",
+      "finalUrl": "https://trail-gear.example/p/basin-stove/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Basin Stove | Trail Gear Co",
+      "description": "Basin Stove: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Basin Stove",
+      "h1Count": 1,
+      "h2": [],
+      "words": 280,
+      "ttfb": 17,
+      "bytes": 2768,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Basin Stove",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 7,
+      "canonical": "https://trail-gear.example/p/basin-stove/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Product"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "stove",
+            "count": 16
+          },
+          {
+            "term": "cord",
+            "count": 13
+          },
+          {
+            "term": "valley",
+            "count": 13
+          },
+          {
+            "term": "wind",
+            "count": 13
+          },
+          {
+            "term": "jacket",
+            "count": 11
+          },
+          {
+            "term": "rain",
+            "count": 10
+          },
+          {
+            "term": "canyon",
+            "count": 9
+          },
+          {
+            "term": "boot",
+            "count": 9
+          }
+        ],
+        "phrases": [
+          {
+            "term": "stove stove",
+            "count": 4
+          },
+          {
+            "term": "cord river",
+            "count": 3
+          },
+          {
+            "term": "durable pack",
+            "count": 2
+          },
+          {
+            "term": "pack canyon",
+            "count": 2
+          },
+          {
+            "term": "lantern boot",
+            "count": 2
+          },
+          {
+            "term": "compass valley",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 92,
+      "issues": [
+        "title-short",
+        "og-missing",
+        "twitter-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/basin-sleeping-bag/",
+      "finalUrl": "https://trail-gear.example/p/basin-sleeping-bag/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Basin Sleeping Bag | Trail Gear Co",
+      "description": "Basin Sleeping Bag: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Basin Sleeping Bag",
+      "h1Count": 1,
+      "h2": [],
+      "words": 281,
+      "ttfb": 18,
+      "bytes": 2862,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Basin Sleeping Bag",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 7,
+      "canonical": "https://trail-gear.example/p/basin-sleeping-bag/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Product"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "waterproof",
+            "count": 13
+          },
+          {
+            "term": "jacket",
+            "count": 12
+          },
+          {
+            "term": "compact",
+            "count": 11
+          },
+          {
+            "term": "ridge",
+            "count": 11
+          },
+          {
+            "term": "compass",
+            "count": 10
+          },
+          {
+            "term": "tent",
+            "count": 10
+          },
+          {
+            "term": "pack",
+            "count": 10
+          },
+          {
+            "term": "map",
+            "count": 10
+          }
+        ],
+        "phrases": [
+          {
+            "term": "summit durable",
+            "count": 2
+          },
+          {
+            "term": "stove rain",
+            "count": 2
+          },
+          {
+            "term": "canyon trail",
+            "count": 2
+          },
+          {
+            "term": "family pack",
+            "count": 2
+          },
+          {
+            "term": "jacket ridge",
+            "count": 2
+          },
+          {
+            "term": "light durable",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 98,
+      "issues": [
+        "og-missing",
+        "twitter-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/pioneer-tent/",
+      "finalUrl": "https://trail-gear.example/p/pioneer-tent/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Pioneer Tent | Trail Gear Co",
+      "description": "",
+      "h1": "Pioneer Tent",
+      "h1Count": 1,
+      "h2": [],
+      "words": 280,
+      "ttfb": 19,
+      "bytes": 2591,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Pioneer Tent",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 7,
+      "canonical": "https://trail-gear.example/p/pioneer-tent/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [],
+      "terms": {
+        "words": [
+          {
+            "term": "sleeping",
+            "count": 15
+          },
+          {
+            "term": "river",
+            "count": 14
+          },
+          {
+            "term": "lantern",
+            "count": 13
+          },
+          {
+            "term": "trail",
+            "count": 12
+          },
+          {
+            "term": "shell",
+            "count": 12
+          },
+          {
+            "term": "ridge",
+            "count": 12
+          },
+          {
+            "term": "bottle",
+            "count": 11
+          },
+          {
+            "term": "waterproof",
+            "count": 10
+          }
+        ],
+        "phrases": [
+          {
+            "term": "fleece sleeping",
+            "count": 3
+          },
+          {
+            "term": "camp fleece",
+            "count": 3
+          },
+          {
+            "term": "light lantern",
+            "count": 3
+          },
+          {
+            "term": "waterproof sleeping",
+            "count": 2
+          },
+          {
+            "term": "shell tent",
+            "count": 2
+          },
+          {
+            "term": "trail canyon",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 85,
+      "issues": [
+        "title-short",
+        "meta-missing",
+        "og-missing",
+        "twitter-missing",
+        "schema-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/pioneer-stove/",
+      "finalUrl": "https://trail-gear.example/p/pioneer-stove/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Pioneer Stove | Trail Gear Co",
+      "description": "Pioneer Stove: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Pioneer Stove",
+      "h1Count": 1,
+      "h2": [],
+      "words": 280,
+      "ttfb": 16,
+      "bytes": 2810,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Pioneer Stove",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 7,
+      "canonical": "https://trail-gear.example/p/pioneer-stove/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Product"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "stove",
+            "count": 17
+          },
+          {
+            "term": "durable",
+            "count": 14
+          },
+          {
+            "term": "rain",
+            "count": 12
+          },
+          {
+            "term": "boot",
+            "count": 12
+          },
+          {
+            "term": "wind",
+            "count": 12
+          },
+          {
+            "term": "sleeping",
+            "count": 11
+          },
+          {
+            "term": "ridge",
+            "count": 10
+          },
+          {
+            "term": "bag",
+            "count": 10
+          }
+        ],
+        "phrases": [
+          {
+            "term": "bag summit",
+            "count": 3
+          },
+          {
+            "term": "boot sleeping",
+            "count": 3
+          },
+          {
+            "term": "waterproof fleece",
+            "count": 2
+          },
+          {
+            "term": "sleeping waterproof",
+            "count": 2
+          },
+          {
+            "term": "stove bottle",
+            "count": 2
+          },
+          {
+            "term": "bottle rain",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 92,
+      "issues": [
+        "title-short",
+        "og-missing",
+        "twitter-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/alpine-daypack/",
+      "finalUrl": "https://trail-gear.example/p/alpine-daypack/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Alpine Daypack | Trail Gear Co",
+      "description": "Alpine Daypack: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Alpine Daypack",
+      "h1Count": 1,
+      "h2": [],
+      "words": 280,
+      "ttfb": 3,
+      "bytes": 2803,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Alpine Daypack",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 6,
+      "canonical": "https://trail-gear.example/p/alpine-daypack/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Product"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "trail",
+            "count": 18
+          },
+          {
+            "term": "sleeping",
+            "count": 14
+          },
+          {
+            "term": "season",
+            "count": 13
+          },
+          {
+            "term": "filter",
+            "count": 12
+          },
+          {
+            "term": "hike",
+            "count": 11
+          },
+          {
+            "term": "grip",
+            "count": 11
+          },
+          {
+            "term": "cord",
+            "count": 10
+          },
+          {
+            "term": "compass",
+            "count": 10
+          }
+        ],
+        "phrases": [
+          {
+            "term": "trail trail",
+            "count": 2
+          },
+          {
+            "term": "trail lantern",
+            "count": 2
+          },
+          {
+            "term": "waterproof grip",
+            "count": 2
+          },
+          {
+            "term": "grip hike",
+            "count": 2
+          },
+          {
+            "term": "shell cord",
+            "count": 2
+          },
+          {
+            "term": "filter durable",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 98,
+      "issues": [
+        "og-missing",
+        "twitter-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/alpine-rain-jacket/",
+      "finalUrl": "https://trail-gear.example/p/alpine-rain-jacket/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Alpine Rain Jacket | Trail Gear Co",
+      "description": "Alpine Rain Jacket: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Alpine Rain Jacket",
+      "h1Count": 1,
+      "h2": [],
+      "words": 281,
+      "ttfb": 4,
+      "bytes": 2840,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Alpine Rain Jacket",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 6,
+      "canonical": "https://trail-gear.example/p/alpine-rain-jacket/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Product"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "filter",
+            "count": 15
+          },
+          {
+            "term": "boot",
+            "count": 12
+          },
+          {
+            "term": "wind",
+            "count": 11
+          },
+          {
+            "term": "pack",
+            "count": 11
+          },
+          {
+            "term": "rain",
+            "count": 10
+          },
+          {
+            "term": "valley",
+            "count": 10
+          },
+          {
+            "term": "fleece",
+            "count": 10
+          },
+          {
+            "term": "family",
+            "count": 10
+          }
+        ],
+        "phrases": [
+          {
+            "term": "valley summit",
+            "count": 3
+          },
+          {
+            "term": "durable light",
+            "count": 2
+          },
+          {
+            "term": "compass canyon",
+            "count": 2
+          },
+          {
+            "term": "sleeping waterproof",
+            "count": 2
+          },
+          {
+            "term": "valley boot",
+            "count": 2
+          },
+          {
+            "term": "boot fleece",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 98,
+      "issues": [
+        "og-missing",
+        "twitter-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/alpine-trekking-poles/",
+      "finalUrl": "https://trail-gear.example/p/alpine-trekking-poles/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Alpine Trekking Poles | Trail Gear Co",
+      "description": "Alpine Trekking Poles: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Alpine Trekking Poles",
+      "h1Count": 1,
+      "h2": [],
+      "words": 281,
+      "ttfb": 5,
+      "bytes": 2845,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Alpine Trekking Poles",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 6,
+      "canonical": "https://trail-gear.example/p/alpine-trekking-poles/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Product"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "river",
+            "count": 14
+          },
+          {
+            "term": "map",
+            "count": 14
+          },
+          {
+            "term": "tent",
+            "count": 12
+          },
+          {
+            "term": "shell",
+            "count": 11
+          },
+          {
+            "term": "trail",
+            "count": 11
+          },
+          {
+            "term": "camp",
+            "count": 10
+          },
+          {
+            "term": "sleeping",
+            "count": 9
+          },
+          {
+            "term": "durable",
+            "count": 9
+          }
+        ],
+        "phrases": [
+          {
+            "term": "map map",
+            "count": 4
+          },
+          {
+            "term": "hike bottle",
+            "count": 3
+          },
+          {
+            "term": "family sleeping",
+            "count": 2
+          },
+          {
+            "term": "boot shell",
+            "count": 2
+          },
+          {
+            "term": "tent stove",
+            "count": 2
+          },
+          {
+            "term": "durable camp",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 98,
+      "issues": [
+        "og-missing",
+        "twitter-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/ridge-daypack/",
+      "finalUrl": "https://trail-gear.example/p/ridge-daypack/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Ridge Daypack | Trail Gear Co",
+      "description": "Ridge Daypack: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Ridge Daypack",
+      "h1Count": 1,
+      "h2": [],
+      "words": 280,
+      "ttfb": 11,
+      "bytes": 2791,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Ridge Daypack",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 6,
+      "canonical": "https://trail-gear.example/p/ridge-daypack/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Product"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "stove",
+            "count": 14
+          },
+          {
+            "term": "ridge",
+            "count": 12
+          },
+          {
+            "term": "season",
+            "count": 12
+          },
+          {
+            "term": "filter",
+            "count": 12
+          },
+          {
+            "term": "rain",
+            "count": 11
+          },
+          {
+            "term": "map",
+            "count": 11
+          },
+          {
+            "term": "grip",
+            "count": 10
+          },
+          {
+            "term": "valley",
+            "count": 10
+          }
+        ],
+        "phrases": [
+          {
+            "term": "bottle grip",
+            "count": 3
+          },
+          {
+            "term": "bag fleece",
+            "count": 2
+          },
+          {
+            "term": "light jacket",
+            "count": 2
+          },
+          {
+            "term": "rain season",
+            "count": 2
+          },
+          {
+            "term": "canyon sleeping",
+            "count": 2
+          },
+          {
+            "term": "sleeping shell",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 92,
+      "issues": [
+        "title-short",
+        "og-missing",
+        "twitter-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/ridge-trekking-poles/",
+      "finalUrl": "https://trail-gear.example/p/ridge-trekking-poles/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Ridge Trekking Poles | Trail Gear Co",
+      "description": "Ridge Trekking Poles: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Ridge Trekking Poles",
+      "h1Count": 1,
+      "h2": [],
+      "words": 281,
+      "ttfb": 17,
+      "bytes": 2849,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Ridge Trekking Poles",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 6,
+      "canonical": "https://trail-gear.example/p/ridge-trekking-poles/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Product"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "compass",
+            "count": 13
+          },
+          {
+            "term": "bottle",
+            "count": 12
+          },
+          {
+            "term": "pack",
+            "count": 12
+          },
+          {
+            "term": "river",
+            "count": 11
+          },
+          {
+            "term": "durable",
+            "count": 11
+          },
+          {
+            "term": "camp",
+            "count": 11
+          },
+          {
+            "term": "family",
+            "count": 10
+          },
+          {
+            "term": "bag",
+            "count": 10
+          }
+        ],
+        "phrases": [
+          {
+            "term": "cord compass",
+            "count": 4
+          },
+          {
+            "term": "rain camp",
+            "count": 3
+          },
+          {
+            "term": "camp river",
+            "count": 3
+          },
+          {
+            "term": "summit boot",
+            "count": 2
+          },
+          {
+            "term": "family durable",
+            "count": 2
+          },
+          {
+            "term": "waterproof camp",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 98,
+      "issues": [
+        "og-missing",
+        "twitter-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/ridge-water-filter/",
+      "finalUrl": "https://trail-gear.example/p/ridge-water-filter/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Ridge Water Filter | Trail Gear Co",
+      "description": "Ridge Water Filter: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Ridge Water Filter",
+      "h1Count": 1,
+      "h2": [],
+      "words": 281,
+      "ttfb": 17,
+      "bytes": 2677,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Ridge Water Filter",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 6,
+      "canonical": "https://trail-gear.example/p/ridge-water-filter/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 1,
+        "noDimensions": 0
+      },
+      "schemaTypes": [],
+      "terms": {
+        "words": [
+          {
+            "term": "grip",
+            "count": 17
+          },
+          {
+            "term": "sleeping",
+            "count": 12
+          },
+          {
+            "term": "filter",
+            "count": 11
+          },
+          {
+            "term": "stove",
+            "count": 11
+          },
+          {
+            "term": "compass",
+            "count": 11
+          },
+          {
+            "term": "bottle",
+            "count": 10
+          },
+          {
+            "term": "river",
+            "count": 10
+          },
+          {
+            "term": "light",
+            "count": 10
+          }
+        ],
+        "phrases": [
+          {
+            "term": "trail boot",
+            "count": 3
+          },
+          {
+            "term": "bottle insulated",
+            "count": 3
+          },
+          {
+            "term": "grip grip",
+            "count": 2
+          },
+          {
+            "term": "filter stove",
+            "count": 2
+          },
+          {
+            "term": "stove river",
+            "count": 2
+          },
+          {
+            "term": "canyon grip",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 91,
+      "issues": [
+        "images-no-alt",
+        "og-missing",
+        "twitter-missing",
+        "schema-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/summit-daypack/",
+      "finalUrl": "https://trail-gear.example/p/summit-daypack/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Summit Daypack | Trail Gear Co",
+      "description": "Summit Daypack: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Summit Daypack",
+      "h1Count": 1,
+      "h2": [],
+      "words": 280,
+      "ttfb": 18,
+      "bytes": 2821,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Summit Daypack",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 6,
+      "canonical": "https://trail-gear.example/p/summit-daypack/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Product"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "jacket",
+            "count": 12
+          },
+          {
+            "term": "hike",
+            "count": 12
+          },
+          {
+            "term": "compact",
+            "count": 11
+          },
+          {
+            "term": "tent",
+            "count": 11
+          },
+          {
+            "term": "family",
+            "count": 10
+          },
+          {
+            "term": "pack",
+            "count": 10
+          },
+          {
+            "term": "insulated",
+            "count": 10
+          },
+          {
+            "term": "summit",
+            "count": 9
+          }
+        ],
+        "phrases": [
+          {
+            "term": "compact season",
+            "count": 3
+          },
+          {
+            "term": "summit jacket",
+            "count": 2
+          },
+          {
+            "term": "hike tent",
+            "count": 2
+          },
+          {
+            "term": "tent rain",
+            "count": 2
+          },
+          {
+            "term": "rain bag",
+            "count": 2
+          },
+          {
+            "term": "filter merino",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 98,
+      "issues": [
+        "og-missing",
+        "twitter-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/summit-trekking-poles/",
+      "finalUrl": "https://trail-gear.example/p/summit-trekking-poles/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Summit Trekking Poles | Trail Gear Co",
+      "description": "Summit Trekking Poles: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Summit Trekking Poles",
+      "h1Count": 1,
+      "h2": [],
+      "words": 281,
+      "ttfb": 16,
+      "bytes": 2849,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Summit Trekking Poles",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 6,
+      "canonical": "https://trail-gear.example/p/summit-trekking-poles/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Product"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "pack",
+            "count": 12
+          },
+          {
+            "term": "tent",
+            "count": 11
+          },
+          {
+            "term": "valley",
+            "count": 11
+          },
+          {
+            "term": "boot",
+            "count": 11
+          },
+          {
+            "term": "fleece",
+            "count": 10
+          },
+          {
+            "term": "hike",
+            "count": 10
+          },
+          {
+            "term": "merino",
+            "count": 10
+          },
+          {
+            "term": "filter",
+            "count": 10
+          }
+        ],
+        "phrases": [
+          {
+            "term": "compact hike",
+            "count": 3
+          },
+          {
+            "term": "summit durable",
+            "count": 3
+          },
+          {
+            "term": "jacket cord",
+            "count": 2
+          },
+          {
+            "term": "cord tent",
+            "count": 2
+          },
+          {
+            "term": "tent summit",
+            "count": 2
+          },
+          {
+            "term": "merino pack",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 98,
+      "issues": [
+        "og-missing",
+        "twitter-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/summit-water-filter/",
+      "finalUrl": "https://trail-gear.example/p/summit-water-filter/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Summit Water Filter | Trail Gear Co",
+      "description": "Summit Water Filter: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Summit Water Filter",
+      "h1Count": 1,
+      "h2": [],
+      "words": 281,
+      "ttfb": 17,
+      "bytes": 2715,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Summit Water Filter",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 6,
+      "canonical": "https://trail-gear.example/p/summit-water-filter/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [],
+      "terms": {
+        "words": [
+          {
+            "term": "jacket",
+            "count": 12
+          },
+          {
+            "term": "summit",
+            "count": 11
+          },
+          {
+            "term": "filter",
+            "count": 11
+          },
+          {
+            "term": "light",
+            "count": 11
+          },
+          {
+            "term": "shell",
+            "count": 11
+          },
+          {
+            "term": "bottle",
+            "count": 11
+          },
+          {
+            "term": "stove",
+            "count": 11
+          },
+          {
+            "term": "lantern",
+            "count": 10
+          }
+        ],
+        "phrases": [
+          {
+            "term": "map bottle",
+            "count": 3
+          },
+          {
+            "term": "merino compact",
+            "count": 3
+          },
+          {
+            "term": "lantern grip",
+            "count": 2
+          },
+          {
+            "term": "jacket shell",
+            "count": 2
+          },
+          {
+            "term": "family family",
+            "count": 2
+          },
+          {
+            "term": "summit stove",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 97,
+      "issues": [
+        "og-missing",
+        "twitter-missing",
+        "schema-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/trail-daypack/",
+      "finalUrl": "https://trail-gear.example/p/trail-daypack/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Trail Daypack | Trail Gear Co",
+      "description": "Trail Daypack: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Trail Daypack",
+      "h1Count": 1,
+      "h2": [],
+      "words": 280,
+      "ttfb": 19,
+      "bytes": 2758,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Trail Daypack",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 6,
+      "canonical": "https://trail-gear.example/p/trail-daypack/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 1,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Product"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "summit",
+            "count": 12
+          },
+          {
+            "term": "wind",
+            "count": 12
+          },
+          {
+            "term": "map",
+            "count": 12
+          },
+          {
+            "term": "compact",
+            "count": 11
+          },
+          {
+            "term": "compass",
+            "count": 11
+          },
+          {
+            "term": "rain",
+            "count": 10
+          },
+          {
+            "term": "insulated",
+            "count": 10
+          },
+          {
+            "term": "merino",
+            "count": 10
+          }
+        ],
+        "phrases": [
+          {
+            "term": "fleece rain",
+            "count": 3
+          },
+          {
+            "term": "grip pack",
+            "count": 3
+          },
+          {
+            "term": "compass season",
+            "count": 3
+          },
+          {
+            "term": "hike compact",
+            "count": 3
+          },
+          {
+            "term": "river compact",
+            "count": 2
+          },
+          {
+            "term": "compact summit",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 86,
+      "issues": [
+        "title-short",
+        "images-no-alt",
+        "og-missing",
+        "twitter-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/trail-rain-jacket/",
+      "finalUrl": "https://trail-gear.example/p/trail-rain-jacket/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Trail Rain Jacket | Trail Gear Co",
+      "description": "Trail Rain Jacket: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Trail Rain Jacket",
+      "h1Count": 1,
+      "h2": [],
+      "words": 281,
+      "ttfb": 19,
+      "bytes": 2836,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Trail Rain Jacket",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 6,
+      "canonical": "https://trail-gear.example/p/trail-rain-jacket/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Product"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "jacket",
+            "count": 12
+          },
+          {
+            "term": "boot",
+            "count": 12
+          },
+          {
+            "term": "fleece",
+            "count": 11
+          },
+          {
+            "term": "waterproof",
+            "count": 10
+          },
+          {
+            "term": "map",
+            "count": 10
+          },
+          {
+            "term": "sleeping",
+            "count": 10
+          },
+          {
+            "term": "trail",
+            "count": 9
+          },
+          {
+            "term": "filter",
+            "count": 9
+          }
+        ],
+        "phrases": [
+          {
+            "term": "trail rain",
+            "count": 2
+          },
+          {
+            "term": "rain jacket",
+            "count": 2
+          },
+          {
+            "term": "shell filter",
+            "count": 2
+          },
+          {
+            "term": "fleece fleece",
+            "count": 2
+          },
+          {
+            "term": "jacket fleece",
+            "count": 2
+          },
+          {
+            "term": "merino durable",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 98,
+      "issues": [
+        "og-missing",
+        "twitter-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/trail-trekking-poles/",
+      "finalUrl": "https://trail-gear.example/p/trail-trekking-poles/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Trail Trekking Poles | Trail Gear Co",
+      "description": "Trail Trekking Poles: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Trail Trekking Poles",
+      "h1Count": 1,
+      "h2": [],
+      "words": 281,
+      "ttfb": 17,
+      "bytes": 2729,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Trail Trekking Poles",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 6,
+      "canonical": "https://trail-gear.example/p/trail-trekking-poles/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [],
+      "terms": {
+        "words": [
+          {
+            "term": "waterproof",
+            "count": 18
+          },
+          {
+            "term": "shell",
+            "count": 13
+          },
+          {
+            "term": "pack",
+            "count": 12
+          },
+          {
+            "term": "rain",
+            "count": 11
+          },
+          {
+            "term": "bag",
+            "count": 10
+          },
+          {
+            "term": "sleeping",
+            "count": 10
+          },
+          {
+            "term": "trail",
+            "count": 9
+          },
+          {
+            "term": "lantern",
+            "count": 9
+          }
+        ],
+        "phrases": [
+          {
+            "term": "trail fleece",
+            "count": 3
+          },
+          {
+            "term": "map waterproof",
+            "count": 3
+          },
+          {
+            "term": "waterproof light",
+            "count": 3
+          },
+          {
+            "term": "valley lantern",
+            "count": 3
+          },
+          {
+            "term": "rain bag",
+            "count": 2
+          },
+          {
+            "term": "bottle river",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 97,
+      "issues": [
+        "og-missing",
+        "twitter-missing",
+        "schema-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/canyon-rain-jacket/",
+      "finalUrl": "https://trail-gear.example/p/canyon-rain-jacket/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Canyon Rain Jacket | Trail Gear Co",
+      "description": "Canyon Rain Jacket: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Canyon Rain Jacket",
+      "h1Count": 1,
+      "h2": [],
+      "words": 281,
+      "ttfb": 17,
+      "bytes": 2846,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Canyon Rain Jacket",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 6,
+      "canonical": "https://trail-gear.example/p/canyon-rain-jacket/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Product"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "rain",
+            "count": 13
+          },
+          {
+            "term": "durable",
+            "count": 12
+          },
+          {
+            "term": "bottle",
+            "count": 12
+          },
+          {
+            "term": "trail",
+            "count": 12
+          },
+          {
+            "term": "compact",
+            "count": 11
+          },
+          {
+            "term": "canyon",
+            "count": 10
+          },
+          {
+            "term": "insulated",
+            "count": 10
+          },
+          {
+            "term": "summit",
+            "count": 10
+          }
+        ],
+        "phrases": [
+          {
+            "term": "canyon rain",
+            "count": 3
+          },
+          {
+            "term": "map lantern",
+            "count": 3
+          },
+          {
+            "term": "light fleece",
+            "count": 3
+          },
+          {
+            "term": "summit map",
+            "count": 2
+          },
+          {
+            "term": "summit insulated",
+            "count": 2
+          },
+          {
+            "term": "jacket canyon",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 98,
+      "issues": [
+        "og-missing",
+        "twitter-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/glacier-daypack/",
+      "finalUrl": "https://trail-gear.example/p/glacier-daypack/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Glacier Daypack | Trail Gear Co",
+      "description": "Glacier Daypack: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Glacier Daypack",
+      "h1Count": 1,
+      "h2": [],
+      "words": 280,
+      "ttfb": 18,
+      "bytes": 2667,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Glacier Daypack",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 6,
+      "canonical": "https://trail-gear.example/p/glacier-daypack/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [],
+      "terms": {
+        "words": [
+          {
+            "term": "map",
+            "count": 13
+          },
+          {
+            "term": "hike",
+            "count": 12
+          },
+          {
+            "term": "season",
+            "count": 11
+          },
+          {
+            "term": "ridge",
+            "count": 11
+          },
+          {
+            "term": "valley",
+            "count": 10
+          },
+          {
+            "term": "jacket",
+            "count": 10
+          },
+          {
+            "term": "trail",
+            "count": 10
+          },
+          {
+            "term": "cord",
+            "count": 10
+          }
+        ],
+        "phrases": [
+          {
+            "term": "map jacket",
+            "count": 4
+          },
+          {
+            "term": "season summit",
+            "count": 3
+          },
+          {
+            "term": "ridge insulated",
+            "count": 3
+          },
+          {
+            "term": "ridge ridge",
+            "count": 3
+          },
+          {
+            "term": "camp grip",
+            "count": 2
+          },
+          {
+            "term": "grip season",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 97,
+      "issues": [
+        "og-missing",
+        "twitter-missing",
+        "schema-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/glacier-rain-jacket/",
+      "finalUrl": "https://trail-gear.example/p/glacier-rain-jacket/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Glacier Rain Jacket | Trail Gear Co",
+      "description": "Glacier Rain Jacket: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Glacier Rain Jacket",
+      "h1Count": 1,
+      "h2": [],
+      "words": 281,
+      "ttfb": 18,
+      "bytes": 2858,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Glacier Rain Jacket",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 6,
+      "canonical": "https://trail-gear.example/p/glacier-rain-jacket/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Product"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "jacket",
+            "count": 16
+          },
+          {
+            "term": "grip",
+            "count": 14
+          },
+          {
+            "term": "family",
+            "count": 12
+          },
+          {
+            "term": "trail",
+            "count": 12
+          },
+          {
+            "term": "river",
+            "count": 11
+          },
+          {
+            "term": "tent",
+            "count": 10
+          },
+          {
+            "term": "insulated",
+            "count": 10
+          },
+          {
+            "term": "hike",
+            "count": 10
+          }
+        ],
+        "phrases": [
+          {
+            "term": "summit shell",
+            "count": 4
+          },
+          {
+            "term": "bottle season",
+            "count": 3
+          },
+          {
+            "term": "family river",
+            "count": 3
+          },
+          {
+            "term": "rain jacket",
+            "count": 2
+          },
+          {
+            "term": "trail insulated",
+            "count": 2
+          },
+          {
+            "term": "fleece hike",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 98,
+      "issues": [
+        "og-missing",
+        "twitter-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/glacier-trekking-poles/",
+      "finalUrl": "https://trail-gear.example/p/glacier-trekking-poles/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Glacier Trekking Poles | Trail Gear Co",
+      "description": "Glacier Trekking Poles: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Glacier Trekking Poles",
+      "h1Count": 1,
+      "h2": [],
+      "words": 281,
+      "ttfb": 16,
+      "bytes": 2866,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Glacier Trekking Poles",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 6,
+      "canonical": "https://trail-gear.example/p/glacier-trekking-poles/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Product"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "cord",
+            "count": 14
+          },
+          {
+            "term": "waterproof",
+            "count": 13
+          },
+          {
+            "term": "filter",
+            "count": 12
+          },
+          {
+            "term": "jacket",
+            "count": 11
+          },
+          {
+            "term": "durable",
+            "count": 11
+          },
+          {
+            "term": "hike",
+            "count": 11
+          },
+          {
+            "term": "map",
+            "count": 10
+          },
+          {
+            "term": "season",
+            "count": 10
+          }
+        ],
+        "phrases": [
+          {
+            "term": "shell trail",
+            "count": 3
+          },
+          {
+            "term": "map durable",
+            "count": 3
+          },
+          {
+            "term": "hike bag",
+            "count": 3
+          },
+          {
+            "term": "jacket camp",
+            "count": 3
+          },
+          {
+            "term": "waterproof cord",
+            "count": 3
+          },
+          {
+            "term": "merino light",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 98,
+      "issues": [
+        "og-missing",
+        "twitter-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/basin-rain-jacket/",
+      "finalUrl": "https://trail-gear.example/p/basin-rain-jacket/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Basin Rain Jacket | Trail Gear Co",
+      "description": "Basin Rain Jacket: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Basin Rain Jacket",
+      "h1Count": 1,
+      "h2": [],
+      "words": 281,
+      "ttfb": 17,
+      "bytes": 2821,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Basin Rain Jacket",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 6,
+      "canonical": "https://trail-gear.example/p/basin-rain-jacket/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Product"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "camp",
+            "count": 16
+          },
+          {
+            "term": "light",
+            "count": 14
+          },
+          {
+            "term": "ridge",
+            "count": 13
+          },
+          {
+            "term": "trail",
+            "count": 12
+          },
+          {
+            "term": "filter",
+            "count": 11
+          },
+          {
+            "term": "canyon",
+            "count": 11
+          },
+          {
+            "term": "waterproof",
+            "count": 11
+          },
+          {
+            "term": "season",
+            "count": 10
+          }
+        ],
+        "phrases": [
+          {
+            "term": "filter camp",
+            "count": 3
+          },
+          {
+            "term": "waterproof camp",
+            "count": 3
+          },
+          {
+            "term": "ridge tent",
+            "count": 3
+          },
+          {
+            "term": "pack season",
+            "count": 2
+          },
+          {
+            "term": "stove shell",
+            "count": 2
+          },
+          {
+            "term": "rain grip",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 98,
+      "issues": [
+        "og-missing",
+        "twitter-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/basin-trekking-poles/",
+      "finalUrl": "https://trail-gear.example/p/basin-trekking-poles/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Basin Trekking Poles | Trail Gear Co",
+      "description": "Basin Trekking Poles: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Basin Trekking Poles",
+      "h1Count": 1,
+      "h2": [],
+      "words": 281,
+      "ttfb": 18,
+      "bytes": 2842,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Basin Trekking Poles",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 6,
+      "canonical": "https://trail-gear.example/p/basin-trekking-poles/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Product"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "boot",
+            "count": 13
+          },
+          {
+            "term": "durable",
+            "count": 12
+          },
+          {
+            "term": "camp",
+            "count": 11
+          },
+          {
+            "term": "fleece",
+            "count": 10
+          },
+          {
+            "term": "season",
+            "count": 10
+          },
+          {
+            "term": "merino",
+            "count": 10
+          },
+          {
+            "term": "lantern",
+            "count": 10
+          },
+          {
+            "term": "cord",
+            "count": 10
+          }
+        ],
+        "phrases": [
+          {
+            "term": "rain family",
+            "count": 3
+          },
+          {
+            "term": "fleece grip",
+            "count": 2
+          },
+          {
+            "term": "insulated durable",
+            "count": 2
+          },
+          {
+            "term": "grip durable",
+            "count": 2
+          },
+          {
+            "term": "shell bag",
+            "count": 2
+          },
+          {
+            "term": "pack season",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 98,
+      "issues": [
+        "og-missing",
+        "twitter-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/pioneer-daypack/",
+      "finalUrl": "https://trail-gear.example/p/pioneer-daypack/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Pioneer Daypack | Trail Gear Co",
+      "description": "Pioneer Daypack: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Pioneer Daypack",
+      "h1Count": 1,
+      "h2": [],
+      "words": 280,
+      "ttfb": 19,
+      "bytes": 2832,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Pioneer Daypack",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 6,
+      "canonical": "https://trail-gear.example/p/pioneer-daypack/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Product"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "compass",
+            "count": 13
+          },
+          {
+            "term": "season",
+            "count": 13
+          },
+          {
+            "term": "bag",
+            "count": 13
+          },
+          {
+            "term": "trail",
+            "count": 12
+          },
+          {
+            "term": "cord",
+            "count": 11
+          },
+          {
+            "term": "compact",
+            "count": 11
+          },
+          {
+            "term": "waterproof",
+            "count": 11
+          },
+          {
+            "term": "hike",
+            "count": 10
+          }
+        ],
+        "phrases": [
+          {
+            "term": "season season",
+            "count": 4
+          },
+          {
+            "term": "cord canyon",
+            "count": 3
+          },
+          {
+            "term": "boot compass",
+            "count": 3
+          },
+          {
+            "term": "jacket light",
+            "count": 2
+          },
+          {
+            "term": "light cord",
+            "count": 2
+          },
+          {
+            "term": "compact compass",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 98,
+      "issues": [
+        "og-missing",
+        "twitter-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/pioneer-rain-jacket/",
+      "finalUrl": "https://trail-gear.example/p/pioneer-rain-jacket/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Pioneer Rain Jacket | Trail Gear Co",
+      "description": "Pioneer Rain Jacket: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Pioneer Rain Jacket",
+      "h1Count": 1,
+      "h2": [],
+      "words": 281,
+      "ttfb": 5,
+      "bytes": 2846,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Pioneer Rain Jacket",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 6,
+      "canonical": "https://trail-gear.example/p/pioneer-rain-jacket/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Product"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "summit",
+            "count": 15
+          },
+          {
+            "term": "rain",
+            "count": 10
+          },
+          {
+            "term": "valley",
+            "count": 10
+          },
+          {
+            "term": "tent",
+            "count": 10
+          },
+          {
+            "term": "trail",
+            "count": 10
+          },
+          {
+            "term": "stove",
+            "count": 10
+          },
+          {
+            "term": "durable",
+            "count": 9
+          },
+          {
+            "term": "hike",
+            "count": 9
+          }
+        ],
+        "phrases": [
+          {
+            "term": "ridge merino",
+            "count": 3
+          },
+          {
+            "term": "summit compact",
+            "count": 3
+          },
+          {
+            "term": "merino insulated",
+            "count": 2
+          },
+          {
+            "term": "family family",
+            "count": 2
+          },
+          {
+            "term": "sleeping valley",
+            "count": 2
+          },
+          {
+            "term": "wind durable",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 98,
+      "issues": [
+        "og-missing",
+        "twitter-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/pioneer-trekking-poles/",
+      "finalUrl": "https://trail-gear.example/p/pioneer-trekking-poles/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Pioneer Trekking Poles | Trail Gear Co",
+      "description": "Pioneer Trekking Poles: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Pioneer Trekking Poles",
+      "h1Count": 1,
+      "h2": [],
+      "words": 281,
+      "ttfb": 21,
+      "bytes": 2805,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Pioneer Trekking Poles",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 6,
+      "canonical": "https://trail-gear.example/p/pioneer-trekking-poles/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Product"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "hike",
+            "count": 12
+          },
+          {
+            "term": "map",
+            "count": 12
+          },
+          {
+            "term": "pack",
+            "count": 11
+          },
+          {
+            "term": "trail",
+            "count": 11
+          },
+          {
+            "term": "filter",
+            "count": 11
+          },
+          {
+            "term": "rain",
+            "count": 10
+          },
+          {
+            "term": "family",
+            "count": 10
+          },
+          {
+            "term": "fleece",
+            "count": 10
+          }
+        ],
+        "phrases": [
+          {
+            "term": "rain sleeping",
+            "count": 2
+          },
+          {
+            "term": "sleeping pack",
+            "count": 2
+          },
+          {
+            "term": "hike family",
+            "count": 2
+          },
+          {
+            "term": "camp stove",
+            "count": 2
+          },
+          {
+            "term": "stove compass",
+            "count": 2
+          },
+          {
+            "term": "fleece cord",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 98,
+      "issues": [
+        "og-missing",
+        "twitter-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/pioneer-water-filter/",
+      "finalUrl": "https://trail-gear.example/p/pioneer-water-filter/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Pioneer Water Filter | Trail Gear Co",
+      "description": "Pioneer Water Filter: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Pioneer Water Filter",
+      "h1Count": 1,
+      "h2": [],
+      "words": 281,
+      "ttfb": 21,
+      "bytes": 2814,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Pioneer Water Filter",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 6,
+      "canonical": "https://trail-gear.example/p/pioneer-water-filter/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Product"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "map",
+            "count": 14
+          },
+          {
+            "term": "river",
+            "count": 11
+          },
+          {
+            "term": "bottle",
+            "count": 11
+          },
+          {
+            "term": "shell",
+            "count": 10
+          },
+          {
+            "term": "compact",
+            "count": 10
+          },
+          {
+            "term": "pack",
+            "count": 10
+          },
+          {
+            "term": "boot",
+            "count": 10
+          },
+          {
+            "term": "cord",
+            "count": 10
+          }
+        ],
+        "phrases": [
+          {
+            "term": "map boot",
+            "count": 4
+          },
+          {
+            "term": "durable bottle",
+            "count": 2
+          },
+          {
+            "term": "ridge sleeping",
+            "count": 2
+          },
+          {
+            "term": "river wind",
+            "count": 2
+          },
+          {
+            "term": "valley camp",
+            "count": 2
+          },
+          {
+            "term": "camp pack",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 98,
+      "issues": [
+        "og-missing",
+        "twitter-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/alpine-trail-shoe/",
+      "finalUrl": "https://trail-gear.example/p/alpine-trail-shoe/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Alpine Trail Shoe | Trail Gear Co",
+      "description": "Alpine Trail Shoe: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Alpine Trail Shoe",
+      "h1Count": 1,
+      "h2": [],
+      "words": 281,
+      "ttfb": 22,
+      "bytes": 2741,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Alpine Trail Shoe",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 10,
+      "canonical": "https://trail-gear.example/p/alpine-trail-shoe/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 1,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Product"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "shell",
+            "count": 12
+          },
+          {
+            "term": "cord",
+            "count": 12
+          },
+          {
+            "term": "family",
+            "count": 12
+          },
+          {
+            "term": "rain",
+            "count": 11
+          },
+          {
+            "term": "map",
+            "count": 11
+          },
+          {
+            "term": "trail",
+            "count": 10
+          },
+          {
+            "term": "boot",
+            "count": 10
+          },
+          {
+            "term": "filter",
+            "count": 10
+          }
+        ],
+        "phrases": [
+          {
+            "term": "compact cord",
+            "count": 3
+          },
+          {
+            "term": "compass river",
+            "count": 3
+          },
+          {
+            "term": "hike map",
+            "count": 2
+          },
+          {
+            "term": "shell shell",
+            "count": 2
+          },
+          {
+            "term": "bag boot",
+            "count": 2
+          },
+          {
+            "term": "cord tent",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 92,
+      "issues": [
+        "images-no-alt",
+        "og-missing",
+        "twitter-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/ridge-wool-socks/",
+      "finalUrl": "https://trail-gear.example/p/ridge-wool-socks/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Ridge Wool Socks | Trail Gear Co",
+      "description": "Ridge Wool Socks: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Ridge Wool Socks",
+      "h1Count": 1,
+      "h2": [],
+      "words": 281,
+      "ttfb": 22,
+      "bytes": 2840,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Ridge Wool Socks",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 10,
+      "canonical": "https://trail-gear.example/p/ridge-wool-socks/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Product"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "waterproof",
+            "count": 14
+          },
+          {
+            "term": "grip",
+            "count": 13
+          },
+          {
+            "term": "compact",
+            "count": 11
+          },
+          {
+            "term": "summit",
+            "count": 10
+          },
+          {
+            "term": "sleeping",
+            "count": 10
+          },
+          {
+            "term": "bag",
+            "count": 10
+          },
+          {
+            "term": "map",
+            "count": 10
+          },
+          {
+            "term": "canyon",
+            "count": 9
+          }
+        ],
+        "phrases": [
+          {
+            "term": "waterproof grip",
+            "count": 3
+          },
+          {
+            "term": "insulated valley",
+            "count": 2
+          },
+          {
+            "term": "season waterproof",
+            "count": 2
+          },
+          {
+            "term": "grip river",
+            "count": 2
+          },
+          {
+            "term": "grip rain",
+            "count": 2
+          },
+          {
+            "term": "rain shell",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 98,
+      "issues": [
+        "og-missing",
+        "twitter-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/canyon-trail-shoe/",
+      "finalUrl": "https://trail-gear.example/p/canyon-trail-shoe/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Canyon Trail Shoe | Trail Gear Co",
+      "description": "",
+      "h1": "Canyon Trail Shoe",
+      "h1Count": 1,
+      "h2": [],
+      "words": 281,
+      "ttfb": 4,
+      "bytes": 2705,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Canyon Trail Shoe",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 10,
+      "canonical": "https://trail-gear.example/p/canyon-trail-shoe/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 1,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Product"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "sleeping",
+            "count": 13
+          },
+          {
+            "term": "trail",
+            "count": 12
+          },
+          {
+            "term": "summit",
+            "count": 12
+          },
+          {
+            "term": "jacket",
+            "count": 12
+          },
+          {
+            "term": "ridge",
+            "count": 10
+          },
+          {
+            "term": "light",
+            "count": 10
+          },
+          {
+            "term": "compact",
+            "count": 9
+          },
+          {
+            "term": "filter",
+            "count": 9
+          }
+        ],
+        "phrases": [
+          {
+            "term": "bottle sleeping",
+            "count": 4
+          },
+          {
+            "term": "jacket season",
+            "count": 3
+          },
+          {
+            "term": "jacket bottle",
+            "count": 2
+          },
+          {
+            "term": "sleeping map",
+            "count": 2
+          },
+          {
+            "term": "sleeping shell",
+            "count": 2
+          },
+          {
+            "term": "tent jacket",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 86,
+      "issues": [
+        "meta-missing",
+        "images-no-alt",
+        "og-missing",
+        "twitter-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/glacier-hiking-boot/",
+      "finalUrl": "https://trail-gear.example/p/glacier-hiking-boot/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Glacier Hiking Boot | Trail Gear Co",
+      "description": "Glacier Hiking Boot: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Glacier Hiking Boot",
+      "h1Count": 1,
+      "h2": [],
+      "words": 281,
+      "ttfb": 5,
+      "bytes": 2813,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Glacier Hiking Boot",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 10,
+      "canonical": "https://trail-gear.example/p/glacier-hiking-boot/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Product"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "tent",
+            "count": 17
+          },
+          {
+            "term": "pack",
+            "count": 13
+          },
+          {
+            "term": "boot",
+            "count": 12
+          },
+          {
+            "term": "hike",
+            "count": 12
+          },
+          {
+            "term": "compass",
+            "count": 11
+          },
+          {
+            "term": "fleece",
+            "count": 11
+          },
+          {
+            "term": "ridge",
+            "count": 11
+          },
+          {
+            "term": "shell",
+            "count": 11
+          }
+        ],
+        "phrases": [
+          {
+            "term": "family hike",
+            "count": 3
+          },
+          {
+            "term": "tent hike",
+            "count": 3
+          },
+          {
+            "term": "pack jacket",
+            "count": 2
+          },
+          {
+            "term": "bag sleeping",
+            "count": 2
+          },
+          {
+            "term": "compact compact",
+            "count": 2
+          },
+          {
+            "term": "compact compass",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 98,
+      "issues": [
+        "og-missing",
+        "twitter-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/p/pioneer-wool-socks/",
+      "finalUrl": "https://trail-gear.example/p/pioneer-wool-socks/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Pioneer Wool Socks | Trail Gear Co",
+      "description": "Pioneer Wool Socks: durable, tested and ready for the trail. Free returns for 30 days.",
+      "h1": "Pioneer Wool Socks",
+      "h1Count": 1,
+      "h2": [],
+      "words": 281,
+      "ttfb": 6,
+      "bytes": 2631,
+      "inlinks": 2,
+      "inlinkAnchors": [
+        {
+          "text": "Pioneer Wool Socks",
+          "n": 1
+        },
+        {
+          "text": "Next",
+          "n": 1
+        }
+      ],
+      "outInternal": 9,
+      "outExternal": 0,
+      "linkScore": 10,
+      "canonical": "https://trail-gear.example/p/pioneer-wool-socks/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 2,
+        "noAlt": 1,
+        "noDimensions": 0
+      },
+      "schemaTypes": [],
+      "terms": {
+        "words": [
+          {
+            "term": "cord",
+            "count": 18
+          },
+          {
+            "term": "canyon",
+            "count": 13
+          },
+          {
+            "term": "shell",
+            "count": 11
+          },
+          {
+            "term": "sleeping",
+            "count": 11
+          },
+          {
+            "term": "compass",
+            "count": 11
+          },
+          {
+            "term": "bag",
+            "count": 11
+          },
+          {
+            "term": "camp",
+            "count": 11
+          },
+          {
+            "term": "trail",
+            "count": 10
+          }
+        ],
+        "phrases": [
+          {
+            "term": "season boot",
+            "count": 3
+          },
+          {
+            "term": "trail valley",
+            "count": 3
+          },
+          {
+            "term": "bottle cord",
+            "count": 2
+          },
+          {
+            "term": "cord hike",
+            "count": 2
+          },
+          {
+            "term": "compact insulated",
+            "count": 2
+          },
+          {
+            "term": "rain trail",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 91,
+      "issues": [
+        "images-no-alt",
+        "og-missing",
+        "twitter-missing",
+        "schema-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/blog/how-to-pick-a-tent/",
+      "finalUrl": "https://trail-gear.example/blog/how-to-pick-a-tent/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "How to pick a tent | Trail Gear Co guides",
+      "description": "How to pick a tent: advice from people who walk a lot.",
+      "h1": "How to pick a tent",
+      "h1Count": 1,
+      "h2": [],
+      "words": 921,
+      "ttfb": 7,
+      "bytes": 6676,
+      "inlinks": 1,
+      "inlinkAnchors": [
+        {
+          "text": "How to pick a tent",
+          "n": 1
+        }
+      ],
+      "outInternal": 8,
+      "outExternal": 0,
+      "linkScore": 9,
+      "canonical": "https://trail-gear.example/blog/how-to-pick-a-tent/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 0,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Article"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "valley",
+            "count": 41
+          },
+          {
+            "term": "camp",
+            "count": 36
+          },
+          {
+            "term": "light",
+            "count": 36
+          },
+          {
+            "term": "pack",
+            "count": 33
+          },
+          {
+            "term": "bag",
+            "count": 33
+          },
+          {
+            "term": "compass",
+            "count": 32
+          },
+          {
+            "term": "fleece",
+            "count": 31
+          },
+          {
+            "term": "hike",
+            "count": 31
+          }
+        ],
+        "phrases": [
+          {
+            "term": "compass valley",
+            "count": 5
+          },
+          {
+            "term": "hike pack",
+            "count": 5
+          },
+          {
+            "term": "merino valley",
+            "count": 5
+          },
+          {
+            "term": "river grip",
+            "count": 4
+          },
+          {
+            "term": "pack bag",
+            "count": 4
+          },
+          {
+            "term": "bag fleece",
+            "count": 4
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 96,
+      "issues": [
+        "meta-short",
+        "og-missing",
+        "twitter-missing",
+        "low-inlinks"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/blog/layering-for-cold-trails/",
+      "finalUrl": "https://trail-gear.example/blog/layering-for-cold-trails/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Layering for cold trails | Trail Gear Co guides",
+      "description": "Layering for cold trails: advice from people who walk a lot.",
+      "h1": "Layering for cold trails",
+      "h1Count": 1,
+      "h2": [],
+      "words": 920,
+      "ttfb": 17,
+      "bytes": 6737,
+      "inlinks": 1,
+      "inlinkAnchors": [
+        {
+          "text": "Layering for cold trails",
+          "n": 1
+        }
+      ],
+      "outInternal": 8,
+      "outExternal": 0,
+      "linkScore": 9,
+      "canonical": "https://trail-gear.example/blog/layering-for-cold-trails/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 0,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Article"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "bottle",
+            "count": 40
+          },
+          {
+            "term": "wind",
+            "count": 37
+          },
+          {
+            "term": "merino",
+            "count": 37
+          },
+          {
+            "term": "bag",
+            "count": 34
+          },
+          {
+            "term": "lantern",
+            "count": 32
+          },
+          {
+            "term": "compass",
+            "count": 31
+          },
+          {
+            "term": "valley",
+            "count": 31
+          },
+          {
+            "term": "trail",
+            "count": 31
+          }
+        ],
+        "phrases": [
+          {
+            "term": "cord merino",
+            "count": 5
+          },
+          {
+            "term": "bottle compact",
+            "count": 4
+          },
+          {
+            "term": "jacket tent",
+            "count": 4
+          },
+          {
+            "term": "valley rain",
+            "count": 4
+          },
+          {
+            "term": "wind jacket",
+            "count": 4
+          },
+          {
+            "term": "grip camp",
+            "count": 4
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 96,
+      "issues": [
+        "meta-short",
+        "og-missing",
+        "twitter-missing",
+        "low-inlinks"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/blog/water-filters-compared/",
+      "finalUrl": "https://trail-gear.example/blog/water-filters-compared/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Water filters compared | Trail Gear Co guides",
+      "description": "Water filters compared: advice from people who walk a lot.",
+      "h1": "Water filters compared",
+      "h1Count": 1,
+      "h2": [],
+      "words": 919,
+      "ttfb": 18,
+      "bytes": 6823,
+      "inlinks": 1,
+      "inlinkAnchors": [
+        {
+          "text": "Water filters compared",
+          "n": 1
+        }
+      ],
+      "outInternal": 8,
+      "outExternal": 0,
+      "linkScore": 9,
+      "canonical": "https://trail-gear.example/blog/water-filters-compared/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 0,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Article"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "sleeping",
+            "count": 39
+          },
+          {
+            "term": "boot",
+            "count": 37
+          },
+          {
+            "term": "compass",
+            "count": 36
+          },
+          {
+            "term": "filter",
+            "count": 35
+          },
+          {
+            "term": "compact",
+            "count": 35
+          },
+          {
+            "term": "stove",
+            "count": 34
+          },
+          {
+            "term": "hike",
+            "count": 32
+          },
+          {
+            "term": "river",
+            "count": 31
+          }
+        ],
+        "phrases": [
+          {
+            "term": "compact filter",
+            "count": 7
+          },
+          {
+            "term": "pack shell",
+            "count": 4
+          },
+          {
+            "term": "grip map",
+            "count": 4
+          },
+          {
+            "term": "map camp",
+            "count": 4
+          },
+          {
+            "term": "camp season",
+            "count": 4
+          },
+          {
+            "term": "sleeping shell",
+            "count": 4
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 96,
+      "issues": [
+        "meta-short",
+        "og-missing",
+        "twitter-missing",
+        "low-inlinks"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/blog/a-first-overnight-hike/",
+      "finalUrl": "https://trail-gear.example/blog/a-first-overnight-hike/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "A first overnight hike | Trail Gear Co guides",
+      "description": "A first overnight hike: advice from people who walk a lot.",
+      "h1": "A first overnight hike",
+      "h1Count": 1,
+      "h2": [],
+      "words": 920,
+      "ttfb": 19,
+      "bytes": 6757,
+      "inlinks": 1,
+      "inlinkAnchors": [
+        {
+          "text": "A first overnight hike",
+          "n": 1
+        }
+      ],
+      "outInternal": 8,
+      "outExternal": 0,
+      "linkScore": 9,
+      "canonical": "https://trail-gear.example/blog/a-first-overnight-hike/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 0,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Article"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "shell",
+            "count": 45
+          },
+          {
+            "term": "ridge",
+            "count": 37
+          },
+          {
+            "term": "river",
+            "count": 36
+          },
+          {
+            "term": "bottle",
+            "count": 32
+          },
+          {
+            "term": "map",
+            "count": 31
+          },
+          {
+            "term": "trail",
+            "count": 30
+          },
+          {
+            "term": "merino",
+            "count": 30
+          },
+          {
+            "term": "season",
+            "count": 30
+          }
+        ],
+        "phrases": [
+          {
+            "term": "season ridge",
+            "count": 5
+          },
+          {
+            "term": "merino summit",
+            "count": 5
+          },
+          {
+            "term": "shell light",
+            "count": 5
+          },
+          {
+            "term": "camp canyon",
+            "count": 4
+          },
+          {
+            "term": "stove map",
+            "count": 4
+          },
+          {
+            "term": "shell shell",
+            "count": 4
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 96,
+      "issues": [
+        "meta-short",
+        "og-missing",
+        "twitter-missing",
+        "low-inlinks"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/blog/boot-fit-guide/",
+      "finalUrl": "https://trail-gear.example/blog/boot-fit-guide/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Boot fit guide | Trail Gear Co guides",
+      "description": "Boot fit guide: advice from people who walk a lot.",
+      "h1": "Boot fit guide",
+      "h1Count": 1,
+      "h2": [],
+      "words": 919,
+      "ttfb": 19,
+      "bytes": 6766,
+      "inlinks": 1,
+      "inlinkAnchors": [
+        {
+          "text": "Boot fit guide",
+          "n": 1
+        }
+      ],
+      "outInternal": 8,
+      "outExternal": 0,
+      "linkScore": 9,
+      "canonical": "https://trail-gear.example/blog/boot-fit-guide/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 0,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Article"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "wind",
+            "count": 35
+          },
+          {
+            "term": "valley",
+            "count": 34
+          },
+          {
+            "term": "camp",
+            "count": 34
+          },
+          {
+            "term": "fleece",
+            "count": 34
+          },
+          {
+            "term": "bottle",
+            "count": 33
+          },
+          {
+            "term": "season",
+            "count": 32
+          },
+          {
+            "term": "filter",
+            "count": 31
+          },
+          {
+            "term": "insulated",
+            "count": 31
+          }
+        ],
+        "phrases": [
+          {
+            "term": "cord season",
+            "count": 5
+          },
+          {
+            "term": "camp valley",
+            "count": 5
+          },
+          {
+            "term": "bottle valley",
+            "count": 4
+          },
+          {
+            "term": "bag bottle",
+            "count": 4
+          },
+          {
+            "term": "insulated family",
+            "count": 4
+          },
+          {
+            "term": "light fleece",
+            "count": 4
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 96,
+      "issues": [
+        "meta-short",
+        "og-missing",
+        "twitter-missing",
+        "low-inlinks"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/blog/winter-camping-basics/",
+      "finalUrl": "https://trail-gear.example/blog/winter-camping-basics/",
+      "status": 200,
+      "redirects": 0,
+      "depth": 2,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Winter camping basics | Trail Gear Co guides",
+      "description": "Winter camping basics: advice from people who walk a lot.",
+      "h1": "Winter camping basics",
+      "h1Count": 1,
+      "h2": [],
+      "words": 919,
+      "ttfb": 19,
+      "bytes": 6720,
+      "inlinks": 1,
+      "inlinkAnchors": [
+        {
+          "text": "Winter camping basics",
+          "n": 1
+        }
+      ],
+      "outInternal": 8,
+      "outExternal": 0,
+      "linkScore": 9,
+      "canonical": "https://trail-gear.example/blog/winter-camping-basics/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 0,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [
+        "Article"
+      ],
+      "terms": {
+        "words": [
+          {
+            "term": "hike",
+            "count": 40
+          },
+          {
+            "term": "grip",
+            "count": 38
+          },
+          {
+            "term": "wind",
+            "count": 37
+          },
+          {
+            "term": "cord",
+            "count": 35
+          },
+          {
+            "term": "lantern",
+            "count": 35
+          },
+          {
+            "term": "canyon",
+            "count": 32
+          },
+          {
+            "term": "map",
+            "count": 30
+          },
+          {
+            "term": "ridge",
+            "count": 30
+          }
+        ],
+        "phrases": [
+          {
+            "term": "map wind",
+            "count": 7
+          },
+          {
+            "term": "sleeping shell",
+            "count": 6
+          },
+          {
+            "term": "canyon sleeping",
+            "count": 4
+          },
+          {
+            "term": "trail ridge",
+            "count": 4
+          },
+          {
+            "term": "compact sleeping",
+            "count": 4
+          },
+          {
+            "term": "valley grip",
+            "count": 4
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 96,
+      "issues": [
+        "meta-short",
+        "og-missing",
+        "twitter-missing",
+        "low-inlinks"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/thank-you/",
+      "finalUrl": "https://trail-gear.example/thank-you/",
+      "status": 200,
+      "redirects": 0,
+      "depth": null,
+      "indexable": false,
+      "inSitemap": true,
+      "title": "Thank you | Trail Gear Co",
+      "description": "Order received.",
+      "h1": "Thank you",
+      "h1Count": 1,
+      "h2": [],
+      "words": 66,
+      "ttfb": 20,
+      "bytes": 1025,
+      "inlinks": 0,
+      "inlinkAnchors": [],
+      "outInternal": 8,
+      "outExternal": 0,
+      "linkScore": 3,
+      "canonical": "https://trail-gear.example/thank-you/",
+      "noindex": true,
+      "lang": "en-AU",
+      "images": {
+        "count": 0,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [],
+      "terms": {
+        "words": [
+          {
+            "term": "merino",
+            "count": 5
+          },
+          {
+            "term": "jacket",
+            "count": 3
+          },
+          {
+            "term": "map",
+            "count": 3
+          },
+          {
+            "term": "hike",
+            "count": 3
+          },
+          {
+            "term": "filter",
+            "count": 3
+          },
+          {
+            "term": "trail",
+            "count": 3
+          },
+          {
+            "term": "fleece",
+            "count": 3
+          }
+        ],
+        "phrases": []
+      },
+      "brokenLinks": [],
+      "score": 59,
+      "issues": [
+        "title-short",
+        "meta-short",
+        "thin-content",
+        "noindex-in-sitemap",
+        "og-missing",
+        "twitter-missing",
+        "schema-missing"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/catalogue/",
+      "finalUrl": "https://trail-gear.example/catalogue/",
+      "status": 200,
+      "redirects": 0,
+      "depth": null,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Catalogue | Trail Gear Co",
+      "description": "The full catalogue.",
+      "h1": "Catalogue",
+      "h1Count": 1,
+      "h2": [],
+      "words": 315,
+      "ttfb": 21,
+      "bytes": 532636,
+      "inlinks": 0,
+      "inlinkAnchors": [],
+      "outInternal": 8,
+      "outExternal": 0,
+      "linkScore": 3,
+      "canonical": "https://trail-gear.example/catalogue/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 0,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [],
+      "terms": {
+        "words": [
+          {
+            "term": "ridge",
+            "count": 16
+          },
+          {
+            "term": "merino",
+            "count": 15
+          },
+          {
+            "term": "tent",
+            "count": 15
+          },
+          {
+            "term": "filter",
+            "count": 14
+          },
+          {
+            "term": "lantern",
+            "count": 12
+          },
+          {
+            "term": "shell",
+            "count": 12
+          },
+          {
+            "term": "compass",
+            "count": 12
+          },
+          {
+            "term": "jacket",
+            "count": 12
+          }
+        ],
+        "phrases": [
+          {
+            "term": "bag filter",
+            "count": 3
+          },
+          {
+            "term": "jacket season",
+            "count": 3
+          },
+          {
+            "term": "insulated sleeping",
+            "count": 3
+          },
+          {
+            "term": "tent lantern",
+            "count": 3
+          },
+          {
+            "term": "lantern shell",
+            "count": 2
+          },
+          {
+            "term": "stove compass",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 78,
+      "issues": [
+        "large-html",
+        "title-short",
+        "meta-short",
+        "og-missing",
+        "twitter-missing",
+        "schema-missing",
+        "orphan-page"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/orphan-guide/",
+      "finalUrl": "https://trail-gear.example/orphan-guide/",
+      "status": 200,
+      "redirects": 0,
+      "depth": null,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Orphan guide | Trail Gear Co",
+      "description": "Not linked from anywhere.",
+      "h1": "Orphan guide",
+      "h1Count": 1,
+      "h2": [],
+      "words": 276,
+      "ttfb": 17,
+      "bytes": 2369,
+      "inlinks": 0,
+      "inlinkAnchors": [],
+      "outInternal": 8,
+      "outExternal": 0,
+      "linkScore": 3,
+      "canonical": "https://trail-gear.example/orphan-guide/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 0,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [],
+      "terms": {
+        "words": [
+          {
+            "term": "compact",
+            "count": 13
+          },
+          {
+            "term": "filter",
+            "count": 12
+          },
+          {
+            "term": "durable",
+            "count": 11
+          },
+          {
+            "term": "ridge",
+            "count": 11
+          },
+          {
+            "term": "bag",
+            "count": 11
+          },
+          {
+            "term": "tent",
+            "count": 11
+          },
+          {
+            "term": "light",
+            "count": 10
+          },
+          {
+            "term": "trail",
+            "count": 10
+          }
+        ],
+        "phrases": [
+          {
+            "term": "compact filter",
+            "count": 3
+          },
+          {
+            "term": "durable tent",
+            "count": 3
+          },
+          {
+            "term": "ridge insulated",
+            "count": 2
+          },
+          {
+            "term": "ridge durable",
+            "count": 2
+          },
+          {
+            "term": "waterproof durable",
+            "count": 2
+          },
+          {
+            "term": "merino rain",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 78,
+      "issues": [
+        "title-short",
+        "meta-short",
+        "meta-duplicate",
+        "og-missing",
+        "twitter-missing",
+        "schema-missing",
+        "orphan-page"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/orphan-offer/",
+      "finalUrl": "https://trail-gear.example/orphan-offer/",
+      "status": 200,
+      "redirects": 0,
+      "depth": null,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Orphan offer | Trail Gear Co",
+      "description": "Not linked from anywhere.",
+      "h1": "Orphan offer",
+      "h1Count": 1,
+      "h2": [],
+      "words": 226,
+      "ttfb": 17,
+      "bytes": 2066,
+      "inlinks": 0,
+      "inlinkAnchors": [],
+      "outInternal": 8,
+      "outExternal": 0,
+      "linkScore": 3,
+      "canonical": "https://trail-gear.example/orphan-offer/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 0,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [],
+      "terms": {
+        "words": [
+          {
+            "term": "river",
+            "count": 11
+          },
+          {
+            "term": "merino",
+            "count": 10
+          },
+          {
+            "term": "canyon",
+            "count": 10
+          },
+          {
+            "term": "summit",
+            "count": 9
+          },
+          {
+            "term": "lantern",
+            "count": 8
+          },
+          {
+            "term": "season",
+            "count": 8
+          },
+          {
+            "term": "compact",
+            "count": 8
+          },
+          {
+            "term": "bag",
+            "count": 8
+          }
+        ],
+        "phrases": [
+          {
+            "term": "summit merino",
+            "count": 3
+          },
+          {
+            "term": "stove camp",
+            "count": 2
+          },
+          {
+            "term": "camp camp",
+            "count": 2
+          },
+          {
+            "term": "camp family",
+            "count": 2
+          },
+          {
+            "term": "lantern hike",
+            "count": 2
+          },
+          {
+            "term": "season insulated",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 78,
+      "issues": [
+        "title-short",
+        "meta-short",
+        "meta-duplicate",
+        "og-missing",
+        "twitter-missing",
+        "schema-missing",
+        "orphan-page"
+      ],
+      "fetchError": null
+    },
+    {
+      "url": "https://trail-gear.example/slow/",
+      "finalUrl": "https://trail-gear.example/slow/",
+      "status": 200,
+      "redirects": 0,
+      "depth": null,
+      "indexable": true,
+      "inSitemap": true,
+      "title": "Trip planner | Trail Gear Co",
+      "description": "Plan a route.",
+      "h1": "Trip planner",
+      "h1Count": 1,
+      "h2": [],
+      "words": 216,
+      "ttfb": 958,
+      "bytes": 1992,
+      "inlinks": 0,
+      "inlinkAnchors": [],
+      "outInternal": 8,
+      "outExternal": 0,
+      "linkScore": 3,
+      "canonical": "https://trail-gear.example/slow/",
+      "noindex": false,
+      "lang": "en-AU",
+      "images": {
+        "count": 0,
+        "noAlt": 0,
+        "noDimensions": 0
+      },
+      "schemaTypes": [],
+      "terms": {
+        "words": [
+          {
+            "term": "pack",
+            "count": 11
+          },
+          {
+            "term": "camp",
+            "count": 10
+          },
+          {
+            "term": "insulated",
+            "count": 10
+          },
+          {
+            "term": "grip",
+            "count": 10
+          },
+          {
+            "term": "waterproof",
+            "count": 9
+          },
+          {
+            "term": "season",
+            "count": 8
+          },
+          {
+            "term": "durable",
+            "count": 8
+          },
+          {
+            "term": "canyon",
+            "count": 7
+          }
+        ],
+        "phrases": [
+          {
+            "term": "lantern summit",
+            "count": 3
+          },
+          {
+            "term": "stove insulated",
+            "count": 2
+          },
+          {
+            "term": "insulated shell",
+            "count": 2
+          },
+          {
+            "term": "jacket grip",
+            "count": 2
+          },
+          {
+            "term": "hike insulated",
+            "count": 2
+          },
+          {
+            "term": "summit insulated",
+            "count": 2
+          }
+        ]
+      },
+      "brokenLinks": [],
+      "score": 78,
+      "issues": [
+        "slow-response",
+        "title-short",
+        "meta-short",
+        "og-missing",
+        "twitter-missing",
+        "schema-missing",
+        "orphan-page"
+      ],
+      "fetchError": null
+    }
+  ],
+  "duplicates": {
+    "titles": [],
+    "descriptions": [
+      {
+        "value": "Not linked from anywhere.",
+        "urls": [
+          "https://trail-gear.example/orphan-guide/",
+          "https://trail-gear.example/orphan-offer/"
+        ],
+        "count": 2
+      }
+    ],
+    "h1s": [],
+    "content": []
+  },
+  "links": {
+    "topInlinked": [
+      {
+        "url": "https://trail-gear.example/",
+        "inlinks": 62,
+        "anchors": [
+          {
+            "text": "Home",
+            "n": 62
+          }
+        ]
+      },
+      {
+        "url": "https://trail-gear.example/camping/",
+        "inlinks": 62,
+        "anchors": [
+          {
+            "text": "Camping",
+            "n": 62
+          }
+        ]
+      },
+      {
+        "url": "https://trail-gear.example/hiking/",
+        "inlinks": 62,
+        "anchors": [
+          {
+            "text": "Hiking",
+            "n": 62
+          }
+        ]
+      },
+      {
+        "url": "https://trail-gear.example/footwear/",
+        "inlinks": 62,
+        "anchors": [
+          {
+            "text": "Footwear",
+            "n": 62
+          }
+        ]
+      },
+      {
+        "url": "https://trail-gear.example/sale/",
+        "inlinks": 62,
+        "anchors": [
+          {
+            "text": "Sale",
+            "n": 62
+          }
+        ]
+      },
+      {
+        "url": "https://trail-gear.example/blog/",
+        "inlinks": 62,
+        "anchors": [
+          {
+            "text": "Guides",
+            "n": 62
+          }
+        ]
+      },
+      {
+        "url": "https://trail-gear.example/about/",
+        "inlinks": 62,
+        "anchors": [
+          {
+            "text": "About",
+            "n": 62
+          }
+        ]
+      },
+      {
+        "url": "https://trail-gear.example/store-locator/",
+        "inlinks": 62,
+        "anchors": [
+          {
+            "text": "Stores",
+            "n": 62
+          }
+        ]
+      },
+      {
+        "url": "https://trail-gear.example/p/alpine-tent/",
+        "inlinks": 3,
+        "anchors": [
+          {
+            "text": "Featured",
+            "n": 1
+          },
+          {
+            "text": "Alpine Tent",
+            "n": 1
+          },
+          {
+            "text": "Next",
+            "n": 1
+          }
+        ]
+      },
+      {
+        "url": "https://trail-gear.example/p/alpine-stove/",
+        "inlinks": 2,
+        "anchors": [
+          {
+            "text": "Alpine Stove",
+            "n": 1
+          },
+          {
+            "text": "Next",
+            "n": 1
+          }
+        ]
+      },
+      {
+        "url": "https://trail-gear.example/p/alpine-lantern/",
+        "inlinks": 2,
+        "anchors": [
+          {
+            "text": "Alpine Lantern",
+            "n": 1
+          },
+          {
+            "text": "Next",
+            "n": 1
+          }
+        ]
+      },
+      {
+        "url": "https://trail-gear.example/p/ridge-tent/",
+        "inlinks": 2,
+        "anchors": [
+          {
+            "text": "Ridge Tent",
+            "n": 1
+          },
+          {
+            "text": "Next",
+            "n": 1
+          }
+        ]
+      },
+      {
+        "url": "https://trail-gear.example/p/ridge-stove/",
+        "inlinks": 2,
+        "anchors": [
+          {
+            "text": "Ridge Stove",
+            "n": 1
+          },
+          {
+            "text": "Next",
+            "n": 1
+          }
+        ]
+      },
+      {
+        "url": "https://trail-gear.example/p/summit-stove/",
+        "inlinks": 2,
+        "anchors": [
+          {
+            "text": "Summit Stove",
+            "n": 1
+          },
+          {
+            "text": "Next",
+            "n": 1
+          }
+        ]
+      },
+      {
+        "url": "https://trail-gear.example/p/summit-sleeping-bag/",
+        "inlinks": 2,
+        "anchors": [
+          {
+            "text": "Summit Sleeping Bag",
+            "n": 1
+          },
+          {
+            "text": "Next",
+            "n": 1
+          }
+        ]
+      },
+      {
+        "url": "https://trail-gear.example/p/canyon-tent/",
+        "inlinks": 2,
+        "anchors": [
+          {
+            "text": "Canyon Tent",
+            "n": 1
+          },
+          {
+            "text": "Next",
+            "n": 1
+          }
+        ]
+      },
+      {
+        "url": "https://trail-gear.example/p/canyon-sleeping-bag/",
+        "inlinks": 2,
+        "anchors": [
+          {
+            "text": "Canyon Sleeping Bag",
+            "n": 1
+          },
+          {
+            "text": "Next",
+            "n": 1
+          }
+        ]
+      },
+      {
+        "url": "https://trail-gear.example/p/canyon-lantern/",
+        "inlinks": 2,
+        "anchors": [
+          {
+            "text": "Canyon Lantern",
+            "n": 1
+          },
+          {
+            "text": "Next",
+            "n": 1
+          }
+        ]
+      },
+      {
+        "url": "https://trail-gear.example/p/glacier-tent/",
+        "inlinks": 2,
+        "anchors": [
+          {
+            "text": "Glacier Tent",
+            "n": 1
+          },
+          {
+            "text": "Next",
+            "n": 1
+          }
+        ]
+      },
+      {
+        "url": "https://trail-gear.example/p/glacier-sleeping-bag/",
+        "inlinks": 2,
+        "anchors": [
+          {
+            "text": "Glacier Sleeping Bag",
+            "n": 1
+          },
+          {
+            "text": "Next",
+            "n": 1
+          }
+        ]
+      },
+      {
+        "url": "https://trail-gear.example/p/glacier-lantern/",
+        "inlinks": 2,
+        "anchors": [
+          {
+            "text": "Glacier Lantern",
+            "n": 1
+          },
+          {
+            "text": "Next",
+            "n": 1
+          }
+        ]
+      },
+      {
+        "url": "https://trail-gear.example/p/basin-stove/",
+        "inlinks": 2,
+        "anchors": [
+          {
+            "text": "Basin Stove",
+            "n": 1
+          },
+          {
+            "text": "Next",
+            "n": 1
+          }
+        ]
+      },
+      {
+        "url": "https://trail-gear.example/p/basin-sleeping-bag/",
+        "inlinks": 2,
+        "anchors": [
+          {
+            "text": "Basin Sleeping Bag",
+            "n": 1
+          },
+          {
+            "text": "Next",
+            "n": 1
+          }
+        ]
+      },
+      {
+        "url": "https://trail-gear.example/p/pioneer-tent/",
+        "inlinks": 2,
+        "anchors": [
+          {
+            "text": "Pioneer Tent",
+            "n": 1
+          },
+          {
+            "text": "Next",
+            "n": 1
+          }
+        ]
+      },
+      {
+        "url": "https://trail-gear.example/p/pioneer-stove/",
+        "inlinks": 2,
+        "anchors": [
+          {
+            "text": "Pioneer Stove",
+            "n": 1
+          },
+          {
+            "text": "Next",
+            "n": 1
+          }
+        ]
+      }
+    ],
+    "topScore": [
+      {
+        "url": "https://trail-gear.example/hiking/",
+        "score": 100,
+        "inlinks": 62
+      },
+      {
+        "url": "https://trail-gear.example/camping/",
+        "score": 99,
+        "inlinks": 62
+      },
+      {
+        "url": "https://trail-gear.example/blog/",
+        "score": 97,
+        "inlinks": 62
+      },
+      {
+        "url": "https://trail-gear.example/footwear/",
+        "score": 96,
+        "inlinks": 62
+      },
+      {
+        "url": "https://trail-gear.example/",
+        "score": 93,
+        "inlinks": 62
+      },
+      {
+        "url": "https://trail-gear.example/sale/",
+        "score": 92,
+        "inlinks": 62
+      },
+      {
+        "url": "https://trail-gear.example/about/",
+        "score": 92,
+        "inlinks": 62
+      },
+      {
+        "url": "https://trail-gear.example/store-locator/",
+        "score": 92,
+        "inlinks": 62
+      },
+      {
+        "url": "https://trail-gear.example/p/alpine-tent/",
+        "score": 17,
+        "inlinks": 3
+      },
+      {
+        "url": "https://trail-gear.example/p/alpine-trail-shoe/",
+        "score": 10,
+        "inlinks": 2
+      },
+      {
+        "url": "https://trail-gear.example/p/ridge-wool-socks/",
+        "score": 10,
+        "inlinks": 2
+      },
+      {
+        "url": "https://trail-gear.example/p/canyon-trail-shoe/",
+        "score": 10,
+        "inlinks": 2
+      },
+      {
+        "url": "https://trail-gear.example/p/glacier-hiking-boot/",
+        "score": 10,
+        "inlinks": 2
+      },
+      {
+        "url": "https://trail-gear.example/p/pioneer-wool-socks/",
+        "score": 10,
+        "inlinks": 2
+      },
+      {
+        "url": "https://trail-gear.example/blog/how-to-pick-a-tent/",
+        "score": 9,
+        "inlinks": 1
+      },
+      {
+        "url": "https://trail-gear.example/blog/layering-for-cold-trails/",
+        "score": 9,
+        "inlinks": 1
+      },
+      {
+        "url": "https://trail-gear.example/blog/water-filters-compared/",
+        "score": 9,
+        "inlinks": 1
+      },
+      {
+        "url": "https://trail-gear.example/blog/a-first-overnight-hike/",
+        "score": 9,
+        "inlinks": 1
+      },
+      {
+        "url": "https://trail-gear.example/blog/boot-fit-guide/",
+        "score": 9,
+        "inlinks": 1
+      },
+      {
+        "url": "https://trail-gear.example/blog/winter-camping-basics/",
+        "score": 9,
+        "inlinks": 1
+      },
+      {
+        "url": "https://trail-gear.example/p/alpine-stove/",
+        "score": 8,
+        "inlinks": 2
+      },
+      {
+        "url": "https://trail-gear.example/p/alpine-lantern/",
+        "score": 7,
+        "inlinks": 2
+      },
+      {
+        "url": "https://trail-gear.example/p/ridge-tent/",
+        "score": 7,
+        "inlinks": 2
+      },
+      {
+        "url": "https://trail-gear.example/p/ridge-stove/",
+        "score": 7,
+        "inlinks": 2
+      },
+      {
+        "url": "https://trail-gear.example/p/summit-stove/",
+        "score": 7,
+        "inlinks": 2
+      }
+    ],
+    "orphans": [
+      "https://trail-gear.example/catalogue/",
+      "https://trail-gear.example/orphan-guide/",
+      "https://trail-gear.example/orphan-offer/",
+      "https://trail-gear.example/slow/"
+    ],
+    "broken": [],
+    "redirected": [],
+    "anchors": [
+      {
+        "text": "Home",
+        "count": 63
+      },
+      {
+        "text": "Camping",
+        "count": 63
+      },
+      {
+        "text": "Hiking",
+        "count": 63
+      },
+      {
+        "text": "Footwear",
+        "count": 63
+      },
+      {
+        "text": "Sale",
+        "count": 63
+      },
+      {
+        "text": "Guides",
+        "count": 63
+      },
+      {
+        "text": "About",
+        "count": 63
+      },
+      {
+        "text": "Stores",
+        "count": 63
+      },
+      {
+        "text": "Next",
+        "count": 44
+      },
+      {
+        "text": "Featured",
+        "count": 1
+      },
+      {
+        "text": "Alpine Tent",
+        "count": 1
+      },
+      {
+        "text": "Alpine Stove",
+        "count": 1
+      },
+      {
+        "text": "Alpine Lantern",
+        "count": 1
+      },
+      {
+        "text": "Ridge Tent",
+        "count": 1
+      },
+      {
+        "text": "Ridge Stove",
+        "count": 1
+      },
+      {
+        "text": "Summit Stove",
+        "count": 1
+      },
+      {
+        "text": "Summit Sleeping Bag",
+        "count": 1
+      },
+      {
+        "text": "Canyon Tent",
+        "count": 1
+      },
+      {
+        "text": "Canyon Sleeping Bag",
+        "count": 1
+      },
+      {
+        "text": "Canyon Lantern",
+        "count": 1
+      },
+      {
+        "text": "Glacier Tent",
+        "count": 1
+      },
+      {
+        "text": "Glacier Sleeping Bag",
+        "count": 1
+      },
+      {
+        "text": "Glacier Lantern",
+        "count": 1
+      },
+      {
+        "text": "Basin Stove",
+        "count": 1
+      },
+      {
+        "text": "Basin Sleeping Bag",
+        "count": 1
+      },
+      {
+        "text": "Pioneer Tent",
+        "count": 1
+      },
+      {
+        "text": "Pioneer Stove",
+        "count": 1
+      },
+      {
+        "text": "Alpine Daypack",
+        "count": 1
+      },
+      {
+        "text": "Alpine Rain Jacket",
+        "count": 1
+      },
+      {
+        "text": "Alpine Trekking Poles",
+        "count": 1
+      }
+    ],
+    "externalDomains": [],
+    "brokenExternal": [],
+    "externalChecked": 0
+  },
+  "content": {
+    "terms": [
+      {
+        "term": "trail",
+        "count": 381
+      },
+      {
+        "term": "filter",
+        "count": 294
+      },
+      {
+        "term": "hike",
+        "count": 269
+      },
+      {
+        "term": "compass",
+        "count": 244
+      },
+      {
+        "term": "bottle",
+        "count": 235
+      },
+      {
+        "term": "sleeping",
+        "count": 223
+      },
+      {
+        "term": "map",
+        "count": 221
+      },
+      {
+        "term": "bag",
+        "count": 219
+      },
+      {
+        "term": "fleece",
+        "count": 215
+      },
+      {
+        "term": "ridge",
+        "count": 215
+      },
+      {
+        "term": "pack",
+        "count": 213
+      },
+      {
+        "term": "lantern",
+        "count": 211
+      },
+      {
+        "term": "season",
+        "count": 205
+      },
+      {
+        "term": "river",
+        "count": 204
+      },
+      {
+        "term": "valley",
+        "count": 191
+      },
+      {
+        "term": "jacket",
+        "count": 190
+      },
+      {
+        "term": "merino",
+        "count": 189
+      },
+      {
+        "term": "stove",
+        "count": 183
+      },
+      {
+        "term": "cord",
+        "count": 179
+      },
+      {
+        "term": "shell",
+        "count": 177
+      },
+      {
+        "term": "boot",
+        "count": 175
+      },
+      {
+        "term": "compact",
+        "count": 175
+      },
+      {
+        "term": "waterproof",
+        "count": 174
+      },
+      {
+        "term": "camp",
+        "count": 164
+      },
+      {
+        "term": "grip",
+        "count": 164
+      },
+      {
+        "term": "wind",
+        "count": 163
+      },
+      {
+        "term": "tent",
+        "count": 157
+      },
+      {
+        "term": "summit",
+        "count": 147
+      },
+      {
+        "term": "rain",
+        "count": 134
+      },
+      {
+        "term": "canyon",
+        "count": 126
+      }
+    ],
+    "phrases": [
+      {
+        "term": "sleeping shell",
+        "count": 14
+      },
+      {
+        "term": "rain jacket",
+        "count": 10
+      },
+      {
+        "term": "compact filter",
+        "count": 10
+      },
+      {
+        "term": "sleeping bag",
+        "count": 8
+      },
+      {
+        "term": "shell bag",
+        "count": 8
+      },
+      {
+        "term": "fleece fleece",
+        "count": 7
+      },
+      {
+        "term": "trekking poles",
+        "count": 7
+      },
+      {
+        "term": "season season",
+        "count": 7
+      },
+      {
+        "term": "compass valley",
+        "count": 7
+      },
+      {
+        "term": "light fleece",
+        "count": 7
+      },
+      {
+        "term": "map wind",
+        "count": 7
+      },
+      {
+        "term": "wind jacket",
+        "count": 6
+      },
+      {
+        "term": "trail bottle",
+        "count": 6
+      },
+      {
+        "term": "bottle grip",
+        "count": 6
+      },
+      {
+        "term": "map jacket",
+        "count": 6
+      },
+      {
+        "term": "bag fleece",
+        "count": 6
+      },
+      {
+        "term": "canyon sleeping",
+        "count": 6
+      },
+      {
+        "term": "shell shell",
+        "count": 6
+      },
+      {
+        "term": "jacket season",
+        "count": 6
+      },
+      {
+        "term": "fleece stove",
+        "count": 5
+      },
+      {
+        "term": "ridge tent",
+        "count": 5
+      },
+      {
+        "term": "lantern shell",
+        "count": 5
+      },
+      {
+        "term": "bag bag",
+        "count": 5
+      },
+      {
+        "term": "compact compact",
+        "count": 5
+      },
+      {
+        "term": "summit map",
+        "count": 5
+      }
+    ],
+    "schemaTypes": [
+      {
+        "type": "Product",
+        "pages": 38
+      },
+      {
+        "type": "Article",
+        "pages": 6
+      },
+      {
+        "type": "Organization",
+        "pages": 1
+      }
+    ],
+    "titleLengths": {
+      "30–60": 39,
+      "<30": 24
+    },
+    "descLengths": {
+      "70–160": 45,
+      "<70": 15,
+      "missing": 3
+    },
+    "wordBands": {
+      "200–499": 52,
+      "<200": 5,
+      "500–999": 6
+    }
+  },
+  "notes": []
+}

@@ -1,0 +1,19 @@
+{
+  "startUrl": "https://peak-supply.example/",
+  "crawledAt": "2026-10-29T05:24:55.346Z",
+  "options": {
+    "maxPages": 200,
+    "concurrency": 4,
+    "checkExternal": false,
+    "engine": "builtin"
+  },
+  "blocked": true,
+  "blockedReason": "the homepage returned HTTP 403",
+  "host": "peak-supply.example",
+  "pages": [],
+  "issues": [],
+  "summary": null,
+  "notes": [
+    "crawl not possible: the homepage returned HTTP 403"
+  ]
+}

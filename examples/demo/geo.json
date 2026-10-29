@@ -1,0 +1,108 @@
+{
+  "geo": {
+    "url": "https://demo-outdoor.example/",
+    "score": 60,
+    "checks": [
+      {
+        "name": "Allows major AI crawlers",
+        "pass": true,
+        "detail": "none blocked"
+      },
+      {
+        "name": "Publishes /llms.txt",
+        "pass": false,
+        "detail": "missing"
+      },
+      {
+        "name": "Structured data (JSON-LD)",
+        "pass": true,
+        "detail": "Organization"
+      },
+      {
+        "name": "Organization or Product entity markup",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "FAQ / HowTo markup (answer-ready)",
+        "pass": false,
+        "detail": ""
+      },
+      {
+        "name": "Exactly one h1",
+        "pass": true,
+        "detail": "1 found"
+      },
+      {
+        "name": "Question-style headings",
+        "pass": false,
+        "detail": "0 of 0 h2/h3"
+      },
+      {
+        "name": "Meta description",
+        "pass": true,
+        "detail": "present"
+      },
+      {
+        "name": "Canonical URL",
+        "pass": true,
+        "detail": ""
+      },
+      {
+        "name": "Substantive text (300+ words)",
+        "pass": false,
+        "detail": "214 words in the HTML"
+      }
+    ],
+    "crawlers": [
+      {
+        "agent": "GPTBot",
+        "status": "allowed (no rule)"
+      },
+      {
+        "agent": "OAI-SearchBot",
+        "status": "allowed (no rule)"
+      },
+      {
+        "agent": "ChatGPT-User",
+        "status": "allowed (no rule)"
+      },
+      {
+        "agent": "ClaudeBot",
+        "status": "allowed (no rule)"
+      },
+      {
+        "agent": "anthropic-ai",
+        "status": "allowed (no rule)"
+      },
+      {
+        "agent": "PerplexityBot",
+        "status": "allowed (no rule)"
+      },
+      {
+        "agent": "Google-Extended",
+        "status": "allowed (no rule)"
+      },
+      {
+        "agent": "CCBot",
+        "status": "allowed (no rule)"
+      },
+      {
+        "agent": "Bytespider",
+        "status": "allowed (no rule)"
+      },
+      {
+        "agent": "Applebot-Extended",
+        "status": "allowed (no rule)"
+      }
+    ],
+    "structuredData": {
+      "types": [
+        "Organization"
+      ],
+      "invalid": 0
+    },
+    "words": 214
+  },
+  "plan": null
+}

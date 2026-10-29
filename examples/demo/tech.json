@@ -1,0 +1,32 @@
+{
+  "domain": "demo-outdoor.example",
+  "detectedAt": "2026-01-15T09:00:00Z",
+  "technology": [
+    {
+      "name": "Google Analytics",
+      "category": "Analytics",
+      "detectedBy": [
+        "html:gtag snippet"
+      ],
+      "version": null
+    },
+    {
+      "name": "Cloudflare",
+      "category": "CDN",
+      "detectedBy": [
+        "header:server",
+        "header:cf-ray"
+      ],
+      "version": null
+    },
+    {
+      "name": "Google Fonts",
+      "category": "Fonts",
+      "detectedBy": [
+        "html:google fonts"
+      ],
+      "version": null
+    }
+  ],
+  "sources": []
+}

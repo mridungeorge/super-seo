@@ -1,0 +1,125 @@
+{
+  "domain": "demo-outdoor.example",
+  "demo": true,
+  "steps": [
+    {
+      "name": "probe",
+      "status": "ok",
+      "seconds": 0,
+      "file": "probe.json",
+      "note": ""
+    },
+    {
+      "name": "crawl",
+      "status": "ok",
+      "seconds": 0,
+      "file": "crawl.json",
+      "note": ""
+    },
+    {
+      "name": "psi",
+      "status": "ok",
+      "seconds": 0,
+      "file": "psi.json",
+      "note": ""
+    },
+    {
+      "name": "psi-desktop",
+      "status": "ok",
+      "seconds": 0,
+      "file": "psi-desktop.json",
+      "note": ""
+    },
+    {
+      "name": "tech",
+      "status": "ok",
+      "seconds": 0,
+      "file": "tech.json",
+      "note": ""
+    },
+    {
+      "name": "geo",
+      "status": "ok",
+      "seconds": 0,
+      "file": "geo.json",
+      "note": ""
+    },
+    {
+      "name": "rank",
+      "status": "ok",
+      "seconds": 0,
+      "file": "rank.json",
+      "note": ""
+    },
+    {
+      "name": "competitor-1-crawl",
+      "status": "ok",
+      "seconds": 0,
+      "file": "competitor-1-crawl.json",
+      "note": ""
+    },
+    {
+      "name": "competitor-1-psi",
+      "status": "ok",
+      "seconds": 0,
+      "file": "competitor-1-psi.json",
+      "note": ""
+    },
+    {
+      "name": "competitor-2-crawl",
+      "status": "ok",
+      "seconds": 0,
+      "file": "competitor-2-crawl.json",
+      "note": ""
+    },
+    {
+      "name": "competitor-2-psi",
+      "status": "ok",
+      "seconds": 0,
+      "file": "competitor-2-psi.json",
+      "note": ""
+    },
+    {
+      "name": "psi-page-1",
+      "status": "ok",
+      "seconds": 0,
+      "file": "psi-page-1.json",
+      "note": ""
+    },
+    {
+      "name": "psi-page-2",
+      "status": "ok",
+      "seconds": 0,
+      "file": "psi-page-2.json",
+      "note": ""
+    },
+    {
+      "name": "psi-page-3",
+      "status": "ok",
+      "seconds": 0,
+      "file": "psi-page-3.json",
+      "note": ""
+    },
+    {
+      "name": "keywords-brand",
+      "status": "ok",
+      "seconds": 0,
+      "file": "keywords-brand.json",
+      "note": ""
+    },
+    {
+      "name": "serp",
+      "status": "ok",
+      "seconds": 0,
+      "file": "serp.json",
+      "note": ""
+    },
+    {
+      "name": "ai",
+      "status": "ok",
+      "seconds": 0,
+      "file": "ai.json",
+      "note": ""
+    }
+  ]
+}

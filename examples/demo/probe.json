@@ -1,0 +1,28 @@
+{
+  "url": "https://demo-outdoor.example/",
+  "measuredAt": "2026-01-15T09:00:00Z",
+  "runs": 1,
+  "vitals": {
+    "lcp": 3400,
+    "cls": 0.08,
+    "inp": null,
+    "fcp": 1900,
+    "ttfb": 420,
+    "domContentLoaded": 2100,
+    "load": 3900,
+    "lcpSelector": "main > div.hero > img:nth-child(1)",
+    "clsEntries": [],
+    "longTasks": []
+  },
+  "ratings": {
+    "lcp": "needs-improvement",
+    "cls": "good",
+    "inp": "no-interaction",
+    "fcp": "good",
+    "ttfb": "good"
+  },
+  "page": {
+    "resources": 86
+  },
+  "tech": []
+}

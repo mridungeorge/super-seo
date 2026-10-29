@@ -1,0 +1,329 @@
+{
+  "seed": "Demo Outdoor Supply",
+  "count": 16,
+  "keywords": [
+    {
+      "keyword": "camping tents",
+      "sources": [
+        "suggest"
+      ],
+      "sourceCount": 1,
+      "suggestionDepth": 0,
+      "intent": "informational"
+    },
+    {
+      "keyword": "family camping tent",
+      "sources": [
+        "suggest"
+      ],
+      "sourceCount": 2,
+      "suggestionDepth": 0,
+      "intent": "informational"
+    },
+    {
+      "keyword": "lightweight hiking boots",
+      "sources": [
+        "suggest"
+      ],
+      "sourceCount": 3,
+      "suggestionDepth": 0,
+      "intent": "informational"
+    },
+    {
+      "keyword": "best rain jacket for hiking",
+      "sources": [
+        "suggest"
+      ],
+      "sourceCount": 1,
+      "suggestionDepth": 0,
+      "intent": "commercial"
+    },
+    {
+      "keyword": "how to choose a sleeping bag",
+      "sources": [
+        "suggest"
+      ],
+      "sourceCount": 2,
+      "suggestionDepth": 0,
+      "intent": "informational"
+    },
+    {
+      "keyword": "buy camping stove",
+      "sources": [
+        "suggest"
+      ],
+      "sourceCount": 3,
+      "suggestionDepth": 0,
+      "intent": "transactional"
+    },
+    {
+      "keyword": "trekking poles",
+      "sources": [
+        "suggest"
+      ],
+      "sourceCount": 1,
+      "suggestionDepth": 0,
+      "intent": "informational"
+    },
+    {
+      "keyword": "waterproof daypack",
+      "sources": [
+        "suggest"
+      ],
+      "sourceCount": 2,
+      "suggestionDepth": 0,
+      "intent": "informational"
+    },
+    {
+      "keyword": "hiking boots women",
+      "sources": [
+        "suggest"
+      ],
+      "sourceCount": 3,
+      "suggestionDepth": 0,
+      "intent": "informational"
+    },
+    {
+      "keyword": "compact water filter",
+      "sources": [
+        "suggest"
+      ],
+      "sourceCount": 1,
+      "suggestionDepth": 0,
+      "intent": "informational"
+    },
+    {
+      "keyword": "winter camping checklist",
+      "sources": [
+        "suggest"
+      ],
+      "sourceCount": 2,
+      "suggestionDepth": 0,
+      "intent": "informational"
+    },
+    {
+      "keyword": "camping lantern rechargeable",
+      "sources": [
+        "suggest"
+      ],
+      "sourceCount": 3,
+      "suggestionDepth": 0,
+      "intent": "informational"
+    },
+    {
+      "keyword": "wool hiking socks",
+      "sources": [
+        "suggest"
+      ],
+      "sourceCount": 1,
+      "suggestionDepth": 0,
+      "intent": "informational"
+    },
+    {
+      "keyword": "trail running shoes",
+      "sources": [
+        "suggest"
+      ],
+      "sourceCount": 2,
+      "suggestionDepth": 0,
+      "intent": "informational"
+    },
+    {
+      "keyword": "camping gear sale",
+      "sources": [
+        "suggest"
+      ],
+      "sourceCount": 3,
+      "suggestionDepth": 0,
+      "intent": "informational"
+    },
+    {
+      "keyword": "demo outdoor supply",
+      "sources": [
+        "suggest"
+      ],
+      "sourceCount": 1,
+      "suggestionDepth": 0,
+      "intent": "informational"
+    }
+  ],
+  "notes": [],
+  "clusters": [
+    {
+      "cluster": "lightweight hiking",
+      "size": 1,
+      "intents": [
+        "informational"
+      ],
+      "strength": 3,
+      "terms": [
+        "lightweight hiking boots"
+      ]
+    },
+    {
+      "cluster": "buy camping",
+      "size": 1,
+      "intents": [
+        "transactional"
+      ],
+      "strength": 3,
+      "terms": [
+        "buy camping stove"
+      ]
+    },
+    {
+      "cluster": "hiking boots",
+      "size": 1,
+      "intents": [
+        "informational"
+      ],
+      "strength": 3,
+      "terms": [
+        "hiking boots women"
+      ]
+    },
+    {
+      "cluster": "camping lantern",
+      "size": 1,
+      "intents": [
+        "informational"
+      ],
+      "strength": 3,
+      "terms": [
+        "camping lantern rechargeable"
+      ]
+    },
+    {
+      "cluster": "camping gear",
+      "size": 1,
+      "intents": [
+        "informational"
+      ],
+      "strength": 3,
+      "terms": [
+        "camping gear sale"
+      ]
+    },
+    {
+      "cluster": "family camping",
+      "size": 1,
+      "intents": [
+        "informational"
+      ],
+      "strength": 2,
+      "terms": [
+        "family camping tent"
+      ]
+    },
+    {
+      "cluster": "how to",
+      "size": 1,
+      "intents": [
+        "informational"
+      ],
+      "strength": 2,
+      "terms": [
+        "how to choose a sleeping bag"
+      ]
+    },
+    {
+      "cluster": "waterproof daypack",
+      "size": 1,
+      "intents": [
+        "informational"
+      ],
+      "strength": 2,
+      "terms": [
+        "waterproof daypack"
+      ]
+    },
+    {
+      "cluster": "winter camping",
+      "size": 1,
+      "intents": [
+        "informational"
+      ],
+      "strength": 2,
+      "terms": [
+        "winter camping checklist"
+      ]
+    },
+    {
+      "cluster": "trail running",
+      "size": 1,
+      "intents": [
+        "informational"
+      ],
+      "strength": 2,
+      "terms": [
+        "trail running shoes"
+      ]
+    },
+    {
+      "cluster": "camping tents",
+      "size": 1,
+      "intents": [
+        "informational"
+      ],
+      "strength": 1,
+      "terms": [
+        "camping tents"
+      ]
+    },
+    {
+      "cluster": "best rain",
+      "size": 1,
+      "intents": [
+        "commercial"
+      ],
+      "strength": 1,
+      "terms": [
+        "best rain jacket for hiking"
+      ]
+    },
+    {
+      "cluster": "trekking poles",
+      "size": 1,
+      "intents": [
+        "informational"
+      ],
+      "strength": 1,
+      "terms": [
+        "trekking poles"
+      ]
+    },
+    {
+      "cluster": "compact water",
+      "size": 1,
+      "intents": [
+        "informational"
+      ],
+      "strength": 1,
+      "terms": [
+        "compact water filter"
+      ]
+    },
+    {
+      "cluster": "wool hiking",
+      "size": 1,
+      "intents": [
+        "informational"
+      ],
+      "strength": 1,
+      "terms": [
+        "wool hiking socks"
+      ]
+    },
+    {
+      "cluster": "demo outdoor",
+      "size": 1,
+      "intents": [
+        "informational"
+      ],
+      "strength": 1,
+      "terms": [
+        "demo outdoor supply"
+      ]
+    }
+  ]
+}
